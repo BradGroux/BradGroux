@@ -5,7 +5,7 @@
 I build tools that make AI useful for real work — not demos, not hype, just systems that ship.
 
 <p align="center">
-  <img src="https://ghchart.rshah.org/8b5cf6/BradGroux" alt="Brad's Contribution Grid" width="100%" />
+  <img src="https://raw.githubusercontent.com/BradGroux/BradGroux/main/contribution-grid.svg" alt="Brad's Contribution Grid" width="100%" />
 </p>
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=BradGroux&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Brad's GitHub Stats" height="165" />
