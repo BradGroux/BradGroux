@@ -4,6 +4,11 @@
 
 I build tools that make AI useful for real work — not demos, not hype, just systems that ship.
 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=BradGroux&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Brad's GitHub Stats" height="165" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=BradGroux&theme=tokyonight&hide_border=true" alt="Brad's GitHub Streak" height="165" />
+</p>
+
 ## What I'm Working On
 
 🔲 **[Veritas Kanban](https://github.com/BradGroux/veritas-kanban)** — Lightweight project orchestration built for the agentic AI era. 660+ stars, MIT licensed. Think kanban meets AI task delegation — where your board actually knows what's happening.
@@ -33,13 +38,6 @@ LLMs · Agentic AI · Knowledge Graphs
 - 🦞 [OpenClaw](https://github.com/openclaw/openclaw) maintainer and Microsoft integrations lead and liaison
 - 💜 Two nonprofits: **The Longhorn Project** @ NASA JSC and **Elijah Rising**
 - 🗣️ Speaker on AI in enterprise, agentic workflows, and practical automation
-
-## GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=BradGroux&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Brad's GitHub Stats" height="165" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=BradGroux&theme=tokyonight&hide_border=true" alt="Brad's GitHub Streak" height="165" />
-</p>
 
 ## Connect
 
