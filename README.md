@@ -34,6 +34,13 @@ LLMs · Agentic AI · Knowledge Graphs
 - 💜 Two nonprofits: **The Longhorn Project** @ NASA JSC and **Elijah Rising**
 - 🗣️ Speaker on AI in enterprise, agentic workflows, and practical automation
 
+## GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=BradGroux&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Brad's GitHub Stats" height="165" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=BradGroux&theme=tokyonight&hide_border=true" alt="Brad's GitHub Streak" height="165" />
+</p>
+
 ## Connect
 
 [![Twitter](https://img.shields.io/badge/-@BradGroux-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/bradgroux)
