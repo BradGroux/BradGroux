@@ -45,6 +45,7 @@ LLMs · Agentic AI · Knowledge Graphs
 ## Connect
 
 [![Twitter](https://img.shields.io/badge/-@BradGroux-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/bradgroux)
+[![YouTube](https://img.shields.io/badge/-BradGroux-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/bradgroux)
 [![LinkedIn](https://img.shields.io/badge/-Brad_Groux-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bradgroux/)
 [![Digital Meld](https://img.shields.io/badge/-digitalmeld.io-000?style=flat&logo=globe&logoColor=white)](https://www.digitalmeld.io)
 [![Podcast](https://img.shields.io/badge/-Start_Small,_Think_Big-8B5CF6?style=flat&logo=podcast&logoColor=white)](https://www.digitalmeld.io)
