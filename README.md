@@ -1,0 +1,44 @@
+# Hey, I'm Brad 👋
+
+**Co-founder of [Digital Meld](https://www.digitalmeld.io)** · Houston, TX
+
+I build tools that make AI useful for real work — not demos, not hype, just systems that ship.
+
+## What I'm Working On
+
+🔲 **[Veritas Kanban](https://github.com/BradGroux/veritas-kanban)** — Lightweight project orchestration built for the agentic AI era. 660+ stars, MIT licensed. Think kanban meets AI task delegation — where your board actually knows what's happening.
+
+🧠 **BrainMeld** — Knowledge fusion platform. Turning scattered notes, conversations, and research into a connected knowledge graph. Coming soon under Digital Meld.
+
+🎙️ **[Start Small, Think Big](https://www.digitalmeld.io)** — A podcast about building things that matter, from the messy middle of actually doing it.
+
+## Background
+
+25+ years in enterprise IT. NASA contractor, Microsoft stack, open-source contributor. Went from managing infrastructure at scale to building AI-powered products.
+
+I co-founded **Digital Meld** with my brother Robert to help businesses stop drowning in manual processes and start using AI where it actually moves the needle — operations, data pipelines, decision support.
+
+## The Stack
+
+```
+TypeScript · React · Node.js · Python · Vite · Tailwind
+Azure · Coolify · Cloudflare · n8n
+LLMs · Agentic AI · Knowledge Graphs
+```
+
+## Community
+
+- 🏈 Two nonprofits: **The Longhorn Project** @ NASA JSC and **Elijah Rising**
+- 🤝 InfraGard member (FBI public-private cybersecurity partnership)
+- 🗣️ Speaker on AI in enterprise, agentic workflows, and practical automation
+
+## Connect
+
+[![Twitter](https://img.shields.io/badge/-@BradGroux-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/bradgroux)
+[![LinkedIn](https://img.shields.io/badge/-Brad_Groux-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bradgroux/)
+[![Digital Meld](https://img.shields.io/badge/-digitalmeld.io-000?style=flat&logo=globe&logoColor=white)](https://www.digitalmeld.io)
+[![Podcast](https://img.shields.io/badge/-Start_Small,_Think_Big-8B5CF6?style=flat&logo=podcast&logoColor=white)](https://www.digitalmeld.io)
+
+---
+
+<sub>Built with strong opinions, Dr. Pepper Zero, and an unreasonable number of AI agents.</sub>
