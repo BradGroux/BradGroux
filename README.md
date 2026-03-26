@@ -8,15 +8,17 @@ I build tools that make AI useful for real work — not demos, not hype, just sy
 
 🔲 **[Veritas Kanban](https://github.com/BradGroux/veritas-kanban)** — Lightweight project orchestration built for the agentic AI era. 660+ stars, MIT licensed. Think kanban meets AI task delegation — where your board actually knows what's happening.
 
-🧠 **BrainMeld** — Knowledge fusion platform. Turning scattered notes, conversations, and research into a connected knowledge graph. Coming soon under Digital Meld.
+🧠 **[BrainMeld](https://www.brainmeld.io)** — Knowledge fusion platform. Turning scattered notes, conversations, and research into a connected knowledge graph. Coming soon under Digital Meld.
+
+🤝 **[DealMeld](https://www.dealmeld.io)** — Digital sales room and CRM platform. Streamlining the deal lifecycle from first touch to close.
 
 🎙️ **[Start Small, Think Big](https://www.digitalmeld.io)** — A podcast about building things that matter, from the messy middle of actually doing it.
 
 ## Background
 
-25+ years in enterprise IT. NASA contractor, Microsoft stack, open-source contributor. Went from managing infrastructure at scale to building AI-powered products.
+25+ years in enterprise IT. Went from managing infrastructure at scale to building AI-powered products.
 
-I co-founded **Digital Meld** with my brother Robert to help businesses stop drowning in manual processes and start using AI where it actually moves the needle — operations, data pipelines, decision support.
+I co-founded **Digital Meld** to help businesses stop drowning in manual processes and start using AI where it actually moves the needle — operations, data pipelines, decision support.
 
 ## The Stack
 
@@ -28,8 +30,8 @@ LLMs · Agentic AI · Knowledge Graphs
 
 ## Community
 
-- 🏈 Two nonprofits: **The Longhorn Project** @ NASA JSC and **Elijah Rising**
-- 🤝 InfraGard member (FBI public-private cybersecurity partnership)
+- 🦞 [OpenClaw](https://github.com/openclaw/openclaw) maintainer and Microsoft integrations lead and liaison
+- 💜 Two nonprofits: **The Longhorn Project** @ NASA JSC and **Elijah Rising**
 - 🗣️ Speaker on AI in enterprise, agentic workflows, and practical automation
 
 ## Connect
@@ -41,4 +43,4 @@ LLMs · Agentic AI · Knowledge Graphs
 
 ---
 
-<sub>Built with strong opinions, Dr. Pepper Zero, and an unreasonable number of AI agents.</sub>
+<sub>Built with strong opinions, an unhealthy amount of Tex-Mex and Dr. Pepper Zero, and an unreasonable number of AI agents.</sub>
