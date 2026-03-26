@@ -1,0 +1,33 @@
+name: Update Contribution Grid
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # Daily at 6 AM UTC (midnight CST)
+  workflow_dispatch:       # Manual trigger
+
+jobs:
+  update-grid:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate contribution grid
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          chmod +x .github/scripts/generate-grid.sh
+          bash .github/scripts/generate-grid.sh
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add contribution-grid.svg
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update contribution grid [skip ci]"
+            git push
+          fi
