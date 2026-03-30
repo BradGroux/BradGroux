@@ -8,7 +8,7 @@ I build tools that make AI useful for real work — not demos, not hype, just sy
   <img src="https://raw.githubusercontent.com/BradGroux/BradGroux/main/contribution-grid.svg" alt="Brad's Contribution Grid" width="100%" />
 </p>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=BradGroux&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Brad's GitHub Stats" height="165" />
+  <img src="./assets/github-stats.svg" alt="Brad's GitHub Stats" height="165" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=BradGroux&theme=tokyonight&hide_border=true" alt="Brad's GitHub Streak" height="165" />
 </p>
 
