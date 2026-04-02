@@ -22,16 +22,14 @@
 
 ## Background
 
-25+ years in enterprise IT. Went from managing infrastructure at scale to building AI-powered products.
-
-I co-founded **Digital Meld** to help businesses stop drowning in manual processes and start using AI where it actually moves the needle — operations, data pipelines, decision support.
+25+ years in enterprise IT. Went from managing infrastructure, to architecting platforms at scale to building AI-powered products and catered solutions. I co-founded **Digital Meld** to help businesses stop drowning in manual processes and start using AI and automation where it actually moves the needle - operations, data pipelines, decision support, and business intelligence.
 
 ## The Stack
 
 ```
-TypeScript · React · Node.js · Python · Vite · Tailwind
-Azure · Coolify · Cloudflare · n8n
-LLMs · Agentic AI · Knowledge Graphs
+TypeScript · React · Node.js · Vite · Tailwind · Python
+Microsoft Azure · Microsoft 365 · Cloudflare · n8n · Supabase
+LLMs · Agentic AI · Vision Models · Knowledge Graphs
 ```
 
 ## Community
