@@ -1,8 +1,6 @@
-# Hey, I'm Brad 👋
+# Hey, I'm Brad Groux 👋
 
-**Co-founder of [Digital Meld](https://www.digitalmeld.io)** · Houston, TX
-
-I build tools that make AI useful for real work — not demos, not hype, just systems that ship.
+**Co-founder and CEO of [Digital Meld](https://www.digitalmeld.io)**, and host of the [Start Small, Think Big](https://www.youtube.com/playlist?list=PLw2ImU79nlNNgAbYOkdMpSPaqYgK2CDLR) podcast. I build tools that make AI useful for real work - not demos, not hype, just systems that ship.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/BradGroux/BradGroux/main/contribution-grid.svg" alt="Brad's Contribution Grid" width="100%" />
@@ -52,4 +50,4 @@ LLMs · Agentic AI · Knowledge Graphs
 
 ---
 
-<sub>Built with strong opinions, an unhealthy amount of Tex-Mex and Dr. Pepper Zero, and an unreasonable number of AI agents.</sub>
+<sub>Built with strong opinions, an unhealthy amount of Tex-Mex and Dr. Pepper Zero, and an unreasonable number of AI agents in Houston, TX.</sub>
