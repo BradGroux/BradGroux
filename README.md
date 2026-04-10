@@ -12,7 +12,7 @@
 
 ## What I'm Working On
 
-🔲 **[Veritas Kanban](https://github.com/BradGroux/veritas-kanban)** — Lightweight project orchestration built for the agentic AI era. 679 stars, MIT licensed. Think kanban meets AI task delegation — where your board actually knows what's happening.
+🔲 **[Veritas Kanban](https://github.com/BradGroux/veritas-kanban)** — Lightweight project orchestration built for the agentic AI era. 679+ stars, MIT licensed. Think kanban meets AI task delegation — where your board actually knows what's happening.
 
 🧠 **[BrainMeld](https://www.brainmeld.io)** — Knowledge fusion platform. Turning scattered notes, conversations, and research into a connected knowledge graph. Coming soon under Digital Meld.
 
