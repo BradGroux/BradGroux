@@ -36,7 +36,7 @@ LLMs · Agentic AI · Vision Models · Knowledge Graphs
 
 - 🦞 [OpenClaw](https://github.com/openclaw/openclaw) maintainer and Microsoft integrations lead and liaison
 - 💜 Two nonprofits: **The Longhorn Project** @ NASA JSC and **Elijah Rising**
-- 🗣️ Speaker on AI in enterprise, agentic workflows, and practical automation
+- 🗣️ Speaker on AI for business, agentic workflows, and practical automation
 
 ## Connect
 
