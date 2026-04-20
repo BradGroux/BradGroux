@@ -12,11 +12,15 @@
 
 ## What I'm Working On
 
+🦞 **[OpenClaw](https://github.com/openclaw/openclaw)** — Open source AI agent runtime and orchestration platform. I’m the Microsoft maintainer and liaison, focused on Teams and Microsoft ecosystem integrations that make OpenClaw work in the real world.
+
 🔲 **[Veritas Kanban](https://github.com/BradGroux/veritas-kanban)** — Lightweight project orchestration built for the agentic AI era. 679+ stars, MIT licensed. Think kanban meets AI task delegation — where your board actually knows what's happening.
 
 🧠 **[BrainMeld](https://www.brainmeld.io)** — Knowledge fusion platform. Turning scattered notes, conversations, and research into a connected knowledge graph. Coming soon under Digital Meld.
 
 🤝 **[DealMeld](https://www.dealmeld.io)** — Digital sales room and CRM platform. Streamlining the deal lifecycle from first touch to close.
+
+🚀 **[sstb.ai](https://sstb.ai)** — Community and learning platform extending Start Small, Think Big into courses, memberships, and practical AI education.
 
 🎙️ **[Start Small, Think Big](https://www.digitalmeld.io)** — A podcast about building things that matter, from the messy middle of actually doing it.
 
@@ -34,7 +38,6 @@ LLMs · Agentic AI · Vision Models · Knowledge Graphs
 
 ## Community
 
-- 🦞 [OpenClaw](https://github.com/openclaw/openclaw) maintainer and Microsoft integrations lead and liaison
 - 💜 Two nonprofits: **The Longhorn Project** @ NASA JSC and **Elijah Rising**
 - 🗣️ Speaker on AI for business, agentic workflows, and practical automation
 
