@@ -14,7 +14,7 @@
 
 🦞 **[OpenClaw](https://github.com/openclaw/openclaw)** — Open source AI agent runtime and orchestration platform. I’m the Microsoft maintainer and liaison, focused on Teams and Microsoft ecosystem integrations that make OpenClaw work in the real world.
 
-🔲 **[Veritas Kanban](https://github.com/BradGroux/veritas-kanban)** — Lightweight project orchestration built for the agentic AI era. 679+ stars, MIT licensed. Think kanban meets AI task delegation — where your board actually knows what's happening.
+🔲 **[Veritas Kanban](https://github.com/BradGroux/veritas-kanban)** — Lightweight project orchestration built for the agentic AI era. 642+ stars, MIT licensed. Think kanban meets AI task delegation — where your board actually knows what's happening.
 
 🧠 **[BrainMeld](https://www.brainmeld.io)** — Knowledge fusion platform. Turning scattered notes, conversations, and research into a connected knowledge graph. Coming soon under Digital Meld.
 
