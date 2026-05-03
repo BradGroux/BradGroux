@@ -1,6 +1,6 @@
 # Hey, I'm Brad Groux 👋
 
-**Co-founder and CEO of [Digital Meld](https://www.digitalmeld.io)**, and host of the [Start Small, Think Big](https://www.youtube.com/playlist?list=PLw2ImU79nlNNgAbYOkdMpSPaqYgK2CDLR) podcast. I build tools that make AI useful for real work - not demos, not hype, just systems that ship.
+**Co-founder and CEO of [Digital Meld](https://www.digitalmeld.io)**, and host of the [Start Small, Think Big](https://www.youtube.com/playlist?list=PLw2ImU79nlNNgAbYOkdMpSPaqYgK2CDLR) podcast. I build tools that make AI useful for real work - not demos, not hype, just systems that ship. Join my [Discord Server](https://discord.gg/Gmfkm7QVSF)!
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/BradGroux/BradGroux/main/contribution-grid.svg" alt="Brad's Contribution Grid" width="100%" />
