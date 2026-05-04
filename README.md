@@ -1,6 +1,6 @@
 # Hey, I'm Brad Groux 👋
 
-**Co-founder and CEO of [Digital Meld](https://www.digitalmeld.io)**, and host of the [Start Small, Think Big](https://www.youtube.com/playlist?list=PLw2ImU79nlNNgAbYOkdMpSPaqYgK2CDLR) podcast. I build tools that make AI useful for real work - not demos, not hype, just systems that ship. Join my [Discord Server](https://discord.gg/Gmfkm7QVSF)!
+**Co-founder and CEO of [Digital Meld](https://www.digitalmeld.io)**, and host of the [Start Small, Think Big](https://www.youtube.com/playlist?list=PLw2ImU79nlNNgAbYOkdMpSPaqYgK2CDLR) podcast. I build tools that make AI useful for real work - not demos, not hype, just systems that ship. Join my [Discord Server](https://discord.gg/Gmfkm7QVSF) for the most active conversation; Digital Meld, the podcast, and the rest of the work are linked below.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/BradGroux/BradGroux/main/contribution-grid.svg" alt="Brad's Contribution Grid" width="100%" />
@@ -14,13 +14,15 @@
 
 🦞 **[OpenClaw](https://github.com/openclaw/openclaw)** — Open source AI agent runtime and orchestration platform. I’m the Microsoft maintainer and liaison, focused on Teams and Microsoft ecosystem integrations that make OpenClaw work in the real world.
 
-🔲 **[Veritas Kanban](https://github.com/BradGroux/veritas-kanban)** — Lightweight project orchestration built for the agentic AI era. 642+ stars, MIT licensed. Think kanban meets AI task delegation — where your board actually knows what's happening.
+🛠️ **[OpenClaw Dev Days](https://github.com/BradGroux/openclaw-dev-days)** — Reusable workshop kit for teaching OpenClaw without turning setup into install chaos. Built around fast first wins, facilitator runbooks, setup guides, and reusable labs.
+
+🔲 **[Veritas Kanban](https://github.com/BradGroux/veritas-kanban)** — Lightweight project orchestration built for the agentic AI era. 650+ stars, MIT licensed. Think kanban meets AI task delegation — where your board actually knows what's happening.
 
 🧠 **[BrainMeld](https://www.brainmeld.io)** — Knowledge fusion platform. Turning scattered notes, conversations, and research into a connected knowledge graph. Coming soon under Digital Meld.
 
 🤝 **[DealMeld](https://www.dealmeld.io)** — Digital sales room and CRM platform. Streamlining the deal lifecycle from first touch to close.
 
-🚀 **[sstb.ai](https://sstb.ai)** — Community and learning platform extending Start Small, Think Big into courses, memberships, and practical AI education.
+🚀 **sstb.ai** *(coming soon)* — Community and learning platform extending Start Small, Think Big into courses, memberships, and practical AI education.
 
 🎙️ **[Start Small, Think Big](https://www.digitalmeld.io)** — A podcast about building things that matter, from the messy middle of actually doing it.
 
