@@ -7,7 +7,7 @@
 </p>
 <p align="center">
   <img src="./assets/github-stats.svg" alt="Brad's GitHub Stats" height="165" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=BradGroux&theme=tokyonight&hide_border=true" alt="Brad's GitHub Streak" height="165" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=BradGroux&theme=tokyonight&hide_border=true&v=20260504" alt="Brad's GitHub Streak" height="165" />
 </p>
 
 ## What I'm Working On
