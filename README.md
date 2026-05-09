@@ -1,4 +1,4 @@
-# Hey, I'm Brad Groux 👋
+# Hey, I'm Brad Groux 👋 - join my [Discord](https://discord.gg/Gmfkm7QVSF)!
 
 **Co-founder and CEO of [Digital Meld](https://www.digitalmeld.io)**, host of the [Start Small, Think Big](https://www.youtube.com/playlist?list=PLw2ImU79nlNNgAbYOkdMpSPaqYgK2CDLR) podcast, and builder of AI systems that survive contact with real work. If you want to talk shop about agents, automation, and shipping useful things, join my [Discord](https://discord.gg/Gmfkm7QVSF).
 
