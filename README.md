@@ -16,13 +16,15 @@
 
 🛠️ **[OpenClaw Dev Days](https://github.com/BradGroux/openclaw-dev-days)** — Reusable workshop kit for teaching OpenClaw without turning setup into install chaos. Built around fast first wins, facilitator runbooks, setup guides, and reusable labs.
 
+🖊️ **[dm-annotate](https://github.com/BradGroux/dm-annotate)** — Native, local-only macOS screen annotation tool for demos, classes, design reviews, screen shares, and recordings.
+
 🔲 **[Veritas Kanban](https://github.com/BradGroux/veritas-kanban)** — Lightweight project orchestration built for the agentic AI era. 650+ stars, MIT licensed. Think kanban meets AI task delegation — where your board actually knows what's happening.
 
 🧠 **[BrainMeld](https://www.brainmeld.io)** — Knowledge fusion platform. Turning scattered notes, conversations, and research into a connected knowledge graph. Coming soon under Digital Meld.
 
 🤝 **[DealMeld](https://www.dealmeld.io)** — Digital sales room and CRM platform. Streamlining the deal lifecycle from first touch to close.
 
-🚀 **sstb.ai** *(coming soon)* — Community and learning platform extending Start Small, Think Big into courses, memberships, and practical AI education.
+🚀 **[sstb.ai](https://www.sstb.ai)** — Live community and learning platform extending Start Small, Think Big into courses, memberships, and practical AI education.
 
 🎙️ **[Start Small, Think Big](https://www.digitalmeld.io)** — A podcast about building things that matter, from the messy middle of actually doing it.
 
