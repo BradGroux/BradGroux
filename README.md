@@ -18,6 +18,8 @@
 
 🖊️ **[dm-annotate](https://github.com/BradGroux/dm-annotate)** — Native, local-only macOS screen annotation tool for demos, classes, design reviews, screen shares, and recordings.
 
+🎥 **[dm-lessonmeld](https://github.com/BradGroux/dm-lessonmeld)** — Native, local-first macOS recording suite for curriculum builders. Record, review, render, and package lessons into local project bundles.
+
 🔲 **[Veritas Kanban](https://github.com/BradGroux/veritas-kanban)** — Lightweight project orchestration built for the agentic AI era. 650+ stars, MIT licensed. Think kanban meets AI task delegation — where your board actually knows what's happening.
 
 🧠 **[BrainMeld](https://www.brainmeld.io)** — Knowledge fusion platform. Turning scattered notes, conversations, and research into a connected knowledge graph. Coming soon under Digital Meld.
