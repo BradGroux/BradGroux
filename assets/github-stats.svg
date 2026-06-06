@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Brad Groux's GitHub Stats, Rank: A+</title>
-        <desc id="descId">Total Stars Earned: 804, Total Commits  (last year) : 599, Total PRs: 389, Total Issues: 471, Contributed to (last year): 9</desc>
+        <desc id="descId">Total Stars Earned: 805, Total Commits  (last year) : 618, Total PRs: 406, Total Issues: 485, Contributed to (last year): 9</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 14.73579076036203;
+        stroke-dashoffset: 14.26163304434297;
       }
     }
   
@@ -162,7 +162,7 @@
         x="219.01"
         y="12.5"
         data-testid="stars"
-      >804</text>
+      >805</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
@@ -177,7 +177,7 @@
         x="219.01"
         y="12.5"
         data-testid="commits"
-      >599</text>
+      >618</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -192,7 +192,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >389</text>
+      >406</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -207,7 +207,7 @@
         x="219.01"
         y="12.5"
         data-testid="issues"
-      >471</text>
+      >485</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
