@@ -14,7 +14,7 @@ That is the part worth sharing.
 
 You do not need to wait for a software company, agency, or internal backlog to build the first version of the tool you wish existed. If you can describe the workflow, name the signals, and define what a good next action looks like, you can build a useful first pass now.
 
-It might be a spreadsheet. It might be a Power App. It might be a static HTML dashboard. It might be a repo task handed to Codex. It might be a Fable 5 prototype. The first version does not need to be perfect. It needs to make the work visible enough that people can act on it.
+It might be a spreadsheet. It might be a lightweight database. It might be a static HTML dashboard. It might be a repo task handed to Codex. It might be a Fable 5 prototype. The first version does not need to be perfect. It needs to make the work visible enough that people can act on it.
 
 Build the map. Add one signal. Turn it into one next action. Verify whether that action helped. Then repeat.
 
@@ -30,7 +30,7 @@ That used to be the default. A team would find a recurring bottleneck, explain i
 
 That is a bad default in 2026.
 
-Low-code tools already let business users build custom apps and workflows without traditional coding.[^powerapps-overview] Agentic coding tools have pushed that further. OpenAI describes Codex as a software engineering agent that can write features, answer codebase questions, fix bugs, and propose pull requests.[^openai-codex] Codex web can connect to GitHub and create pull requests from its work.[^codex-web] OpenAI's own economic research summary says that as agentic tools improve, people use them for longer, more complex, and more cross-functional work.[^openai-work]
+Spreadsheets, lightweight databases, no-code automation tools, and simple scripts already let people build first-pass workflows without waiting for a full software project. Agentic coding tools have pushed that further. OpenAI describes Codex as a software engineering agent that can write features, answer codebase questions, fix bugs, and propose pull requests.[^openai-codex] Codex web can connect to GitHub and create pull requests from its work.[^codex-web] OpenAI's own economic research summary says that as agentic tools improve, people use them for longer, more complex, and more cross-functional work.[^openai-work]
 
 Fable 5 is another example of the same pattern at the frontier. Anthropic describes it as a model aimed at long-running autonomous work, with examples across software engineering, knowledge work, vision, memory, and long-context tasks.[^anthropic-fable] The model is not cheap, and that matters: Anthropic's pricing page lists Fable 5 at $10 per million input tokens and $50 per million output tokens, with batch discounts available.[^anthropic-pricing] So the lesson is not "throw the most expensive model at everything." The lesson is that a capable builder can now move from idea to working proof much faster than the old vendor-roadmap cycle.
 
@@ -76,7 +76,7 @@ Build one small surface:
 
 - A Markdown or HTML daily briefing.
 - A simple dashboard with three live metrics.
-- A Power App for one internal workflow.
+- A lightweight internal form or tracker.
 - A GitHub issue template that turns recurring problems into structured tasks.
 - A Codex task that generates the first version of a report, tool, or automation.
 
@@ -114,7 +114,6 @@ Start small. Build the first loop. Prove it helps. Then decide whether it deserv
 - Anthropic's Fable 5 announcement and docs establish the model context: Fable 5 is positioned for long-running autonomous tasks, with public availability through Claude surfaces and usage-credit constraints around subscription plans.[^anthropic-fable][^anthropic-redeploy]
 - Anthropic's pricing docs are the cost caveat: frontier agent work can get expensive fast, especially when long-running tasks produce a lot of output tokens.[^anthropic-pricing]
 - OpenAI's Codex docs establish the coding-agent side of the same trend: agents can work on repo tasks, implement features, fix bugs, and create pull requests for review.[^openai-codex][^codex-web]
-- Microsoft Power Apps is the low-code baseline: business users and developers can build custom business apps and workflows without starting from traditional code.[^powerapps-overview]
 
 [^siu-linkedin]: Eric Siu, "I used Fable 5 to turn my company into a video game," LinkedIn, accessed 2026-07-09. https://www.linkedin.com/posts/ericosiu_i-used-fable-5-to-turn-my-company-into-a-activity-7478794763232772096-MtHx
 [^anthropic-redeploy]: Anthropic, "Redeploying Claude Fable 5," 2026-06-30. https://www.anthropic.com/news/redeploying-fable-5
@@ -123,4 +122,3 @@ Start small. Build the first loop. Prove it helps. Then decide whether it deserv
 [^openai-codex]: OpenAI, "Introducing Codex," 2025-05. https://openai.com/index/introducing-codex/
 [^codex-web]: OpenAI Developers, "Codex web setup," accessed 2026-07-09. https://developers.openai.com/codex/cloud
 [^openai-work]: OpenAI, "How agents are transforming work," 2026. https://openai.com/index/how-agents-are-transforming-work/
-[^powerapps-overview]: Microsoft Learn, "What is Power Apps?," accessed 2026-07-09. https://learn.microsoft.com/en-us/power-apps/powerapps-overview
