@@ -12,7 +12,7 @@ The post describes a Business Command Center with a dashboard, daily briefing, c
 
 The article uses that as the trigger, then grounds the broader claim in three source-backed trends:
 
-1. Low-code platforms let business users build useful internal apps without traditional software development.
+1. Spreadsheets, lightweight databases, automation tools, APIs, and simple scripts let people build useful first-pass workflows without waiting for a full software project.
 2. Coding agents can turn described tasks into repo changes and pull requests.
 3. Frontier models can handle longer-running autonomous work, but cost and governance matter.
 
@@ -111,19 +111,6 @@ Used for:
 Key takeaway:
 
 - The article's broader claim is not just about one model or one demo. It fits a broader shift toward delegated, cross-functional work.
-
-### Microsoft Learn: What Is Power Apps?
-
-Source: https://learn.microsoft.com/en-us/power-apps/powerapps-overview
-
-Used for:
-
-- Low-code baseline.
-- Microsoft describes Power Apps as enabling users to create custom business apps without writing code.
-
-Key takeaway:
-
-- "You do not need to wait for someone else to build it" is not only an AI-coding-agent point. Low-code tools have already been moving business users in this direction.
 
 ## Editorial Decisions
 
