@@ -261,7 +261,7 @@ def render_desktop(grid: Grid) -> ET.Element:
 
 def render_mobile(grid: Grid) -> ET.Element:
     cell, gap, left = 11, 3, 43
-    band_count = min(4, max(1, len(grid.weeks)))
+    band_count = min(3, max(1, len(grid.weeks)))
     columns = max(1, math.ceil(len(grid.weeks) / band_count))
     band_height = 124
     width = min(320, left + columns * (cell + gap) + 10)
