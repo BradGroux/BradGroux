@@ -13,6 +13,9 @@ jobs:
     steps:
       - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
 
+      - name: Test contribution-grid safeguards
+        run: bash .github/tests/test-generate-grid.sh
+
       - name: Generate contribution grid
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -21,10 +24,13 @@ jobs:
           bash .github/scripts/generate-grid.sh
 
       - name: Commit and push
+        if: success()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add contribution-grid.svg
+          bash .github/scripts/verify-generated-diff.sh contribution-grid.svg
+          git add -- contribution-grid.svg
+          bash .github/scripts/verify-generated-diff.sh contribution-grid.svg
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
