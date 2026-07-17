@@ -48,7 +48,7 @@ def stats_summary(path: Path) -> str:
     if missing:
         raise UpdateError("missing expected stats: " + ", ".join(sorted(missing)))
     return (
-        f"**GitHub stats:** {values['stars']} stars · {values['commits']} commits in the last year · "
+        f"<strong>GitHub stats:</strong> {values['stars']} stars · {values['commits']} commits in the last year · "
         f"{values['prs']} pull requests · {values['issues']} issues · contributions to "
         f"{values['contribs']} repositories in the last year."
     )
@@ -83,10 +83,10 @@ def contribution_summary(path: Path) -> str:
             f"contribution total is {total}, but daily counts sum to {observed_total}"
         )
     if not active:
-        return f"**Contribution activity:** {total:,} contributions in the last year; no active days."
+        return f"<strong>Contribution activity:</strong> {total:,} contributions in the last year; no active days."
     peak_count, peak_date = max(active, key=lambda item: (item[0], item[1]))
     return (
-        f"**Contribution activity:** {total:,} contributions in the last year across {len(active):,} active days; "
+        f"<strong>Contribution activity:</strong> {total:,} contributions in the last year across {len(active):,} active days; "
         f"peak day: {peak_count:,} contributions on {peak_date.strftime('%B %-d, %Y')}. "
         "Activity levels use distinct shapes as well as color."
     )

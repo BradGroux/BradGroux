@@ -10,7 +10,7 @@ cp "$ROOT/README.md" "$TMP_DIR/README.md"
 cp "$TMP_DIR/README.md" "$TMP_DIR/before.md"
 
 python3 "$UPDATER" stats "$ROOT/.github/tests/stats-card/fixtures/valid.svg" "$TMP_DIR/README.md"
-grep -q '\*\*GitHub stats:\*\* 829 stars · 841 commits in the last year · 590 pull requests · 736 issues · contributions to 10 repositories in the last year.' "$TMP_DIR/README.md"
+grep -q '<strong>GitHub stats:</strong> 829 stars · 841 commits in the last year · 590 pull requests · 736 issues · contributions to 10 repositories in the last year.' "$TMP_DIR/README.md"
 
 cp "$TMP_DIR/README.md" "$TMP_DIR/after-valid.md"
 if python3 "$UPDATER" stats "$ROOT/.github/tests/stats-card/fixtures/missing-stats.svg" "$TMP_DIR/README.md" >"$TMP_DIR/stdout" 2>"$TMP_DIR/stderr"; then

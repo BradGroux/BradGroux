@@ -103,7 +103,7 @@ for path, mobile in ((sys.argv[1], False), (sys.argv[2], True)):
 PY
 
 grep -q '<!-- contribution-summary:start -->' "$TMP_DIR/README.md"
-grep -q '\*\*Contribution activity:\*\* 27 contributions in the last year across 4 active days; peak day: 12 contributions on January 5, 2026.' "$TMP_DIR/README.md"
+grep -q '<strong>Contribution activity:</strong> 27 contributions in the last year across 4 active days; peak day: 12 contributions on January 5, 2026.' "$TMP_DIR/README.md"
 grep -q '<source media="(max-width: 600px)" srcset="./contribution-grid-mobile.svg"' "$TMP_DIR/README.md"
 grep -q '<img src="./contribution-grid.svg" alt="" width="100%"' "$TMP_DIR/README.md"
 

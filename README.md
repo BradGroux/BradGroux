@@ -3,7 +3,7 @@
 **Co-founder and CEO of [Digital Meld](https://www.digitalmeld.io)**, host of the [Start Small, Think Big](https://www.youtube.com/playlist?list=PLw2ImU79nlNNgAbYOkdMpSPaqYgK2CDLR) podcast, and builder of AI systems that survive contact with real work. If you want to talk shop about agents, automation, and shipping useful things, join my [Discord](https://discord.gg/Gmfkm7QVSF).
 
 <!-- contribution-summary:start -->
-**Contribution activity:** 14,104 contributions in the last year. Activity levels use distinct shapes as well as color.
+<strong>Contribution activity:</strong> 14,104 contributions in the last year. Activity levels use distinct shapes as well as color.
 <!-- contribution-summary:end -->
 <p align="center">
   <picture>
@@ -12,7 +12,7 @@
   </picture>
 </p>
 <!-- github-stats-summary:start -->
-**GitHub stats:** 829 stars · 841 commits in the last year · 590 pull requests · 736 issues · contributions to 10 repositories in the last year.
+<strong>GitHub stats:</strong> 829 stars · 841 commits in the last year · 590 pull requests · 736 issues · contributions to 10 repositories in the last year.
 <!-- github-stats-summary:end -->
 <p align="center">
   <img src="./assets/github-stats.svg" alt="" height="165" />
