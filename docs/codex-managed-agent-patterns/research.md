@@ -2,8 +2,6 @@
 
 Date: 2026-07-09
 
-> Supporting material for [Use Agents Like a Team, Not a Giant Chat Window](codex-managed-agent-patterns.md). [Browse all writing](../README.md).
-
 Topic: Public-facing article adapting Anthropic managed-agent patterns and a ClaudeDevs advisor/executor post into practical Codex workflow guidance.
 
 ## Research Summary

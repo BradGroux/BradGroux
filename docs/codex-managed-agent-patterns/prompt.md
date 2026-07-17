@@ -2,8 +2,6 @@
 
 Date: 2026-07-09
 
-> Supporting material for [Use Agents Like a Team, Not a Giant Chat Window](codex-managed-agent-patterns.md). [Browse all writing](../README.md).
-
 ## Original Request
 
 > investigate this thread and repo - https://x.com/ClaudeDevs/status/2074606058128224365

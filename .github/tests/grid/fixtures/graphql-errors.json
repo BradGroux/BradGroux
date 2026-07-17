@@ -1,6 +1,0 @@
-{
-  "data": null,
-  "errors": [
-    {"type": "RATE_LIMITED", "message": "API rate limit exceeded"}
-  ]
-}
