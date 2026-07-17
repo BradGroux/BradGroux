@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pull-requests: write
     steps:
       - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
 
@@ -23,17 +24,19 @@ jobs:
           chmod +x .github/scripts/generate-grid.sh
           bash .github/scripts/generate-grid.sh
 
-      - name: Commit and push
+      - name: Open validated grid pull request
         if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLISH_BRANCH: automation/contribution-grid
+          PUBLISH_COMMIT_MESSAGE: 'chore: update contribution grid'
+          PUBLISH_PR_TITLE: 'Update contribution grid'
+          PUBLISH_PR_BODY: |
+            Automated update of the validated contribution grid.
+
+            The generator validates the GraphQL response, renders atomically, and permits only `contribution-grid.svg` to change.
+
+            This PR is never merged automatically. Approve the validation run if GitHub requests it, then review the rendered asset and required check before merging.
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          bash .github/scripts/verify-generated-diff.sh contribution-grid.svg
-          git add -- contribution-grid.svg
-          bash .github/scripts/verify-generated-diff.sh contribution-grid.svg
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "chore: update contribution grid [skip ci]"
-            git push
-          fi
+          bash .github/scripts/publish-generated-pr.sh \
+            contribution-grid.svg
