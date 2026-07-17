@@ -3,7 +3,7 @@
 **Co-founder and CEO of [Digital Meld](https://www.digitalmeld.io)**, host of the [Start Small, Think Big](https://www.youtube.com/playlist?list=PLw2ImU79nlNNgAbYOkdMpSPaqYgK2CDLR) podcast, and builder of AI systems that survive contact with real work. If you want to talk shop about agents, automation, and shipping useful things, join my [Discord](https://discord.gg/Gmfkm7QVSF).
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BradGroux/BradGroux/main/contribution-grid.svg" alt="Brad's Contribution Grid" width="100%" />
+  <img src="https://raw.githubusercontent.com/BradGroux/BradGroux/main/contribution-grid.svg?v=20260717-restored" alt="Brad's Contribution Grid" width="100%" />
 </p>
 <p align="center">
   <img src="./assets/github-stats.svg" alt="Brad's GitHub Stats" height="165" />
