@@ -9,6 +9,7 @@ cd "$ROOT"
 bash .github/tests/test-stats-card.sh
 bash .github/tests/test-generated-diff.sh
 bash .github/tests/test-generate-grid.sh
+bash .github/tests/test-update-readme-activity.sh
 bash .github/tests/test-publish-generated-pr.sh
 
 while IFS= read -r script; do
@@ -33,10 +34,18 @@ python3 - <<'PY'
 from pathlib import Path
 import xml.etree.ElementTree as ET
 
-for path in (Path("assets/github-stats.svg"), Path("contribution-grid.svg")):
+for path in (
+    Path("assets/github-stats.svg"),
+    Path("contribution-grid.svg"),
+    Path("contribution-grid-mobile.svg"),
+):
     root = ET.parse(path).getroot()
     if root.tag.rsplit("}", 1)[-1] != "svg":
         raise SystemExit(f"{path}: root element must be svg")
+    labels = root.get("aria-labelledby", "").split()
+    ids = {element.get("id") for element in root.iter() if element.get("id")}
+    if len(labels) != 2 or not set(labels) <= ids:
+        raise SystemExit(f"{path}: root must reference a title and description")
 PY
 
 if rg -n -i 'something went wrong|cannot read properties of undefined|github-readme-stats error' assets/github-stats.svg; then

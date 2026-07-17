@@ -6,7 +6,7 @@
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
-        aria-labelledby="descId"
+        aria-labelledby="titleId descId"
       >
         <title id="titleId">Brad Groux's GitHub Stats, Rank: A+</title>
         <desc id="descId">Total Stars Earned: 829, Total Commits  (last year) : 841, Total PRs: 590, Total Issues: 736, Contributed to (last year): 10</desc>
@@ -229,4 +229,3 @@
 
         </g>
       </svg>
-

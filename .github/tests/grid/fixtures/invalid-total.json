@@ -1,0 +1,18 @@
+{
+  "data": {
+    "user": {
+      "contributionsCollection": {
+        "contributionCalendar": {
+          "totalContributions": 99,
+          "weeks": [
+            {
+              "contributionDays": [
+                {"contributionCount": 1, "date": "2026-01-01"}
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

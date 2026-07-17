@@ -3,31 +3,22 @@
 
 set -euo pipefail
 
-BG="#1a1b27"
-EMPTY="#2a2e3f"
-L1="#3b1f7e"
-L2="#5b2fb5"
-L3="#7c3aed"
-L4="#8b5cf6"
-
 USERNAME="BradGroux"
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 OUTPUT_FILE="${GRID_OUTPUT_FILE:-$ROOT/contribution-grid.svg}"
+MOBILE_OUTPUT_FILE="${GRID_MOBILE_OUTPUT_FILE:-$ROOT/contribution-grid-mobile.svg}"
+README_FILE="${README_FILE:-$ROOT/README.md}"
 OUTPUT_DIR="$(dirname "$OUTPUT_FILE")"
 QUERY="query{user(login:\"${USERNAME}\"){contributionsCollection{contributionCalendar{totalContributions weeks{contributionDays{contributionCount date}}}}}}"
 
-if [ ! -d "$OUTPUT_DIR" ]; then
+if [ ! -d "$OUTPUT_DIR" ] || [ ! -d "$(dirname "$MOBILE_OUTPUT_FILE")" ]; then
   echo "Contribution-grid output directory does not exist: $OUTPUT_DIR" >&2
   exit 1
 fi
 
 TMP_DIR="$(mktemp -d "${TMPDIR:-/tmp}/generate-grid.XXXXXX")"
-TMP_OUTPUT=""
 cleanup() {
   rm -rf "$TMP_DIR"
-  if [ -n "$TMP_OUTPUT" ] && [ -e "$TMP_OUTPUT" ]; then
-    rm -f "$TMP_OUTPUT"
-  fi
 }
 trap cleanup EXIT
 
@@ -102,97 +93,21 @@ if ! printf '%s' "$RESPONSE" | jq -e '
   exit 1
 fi
 
-WEEKS="$(printf '%s' "$RESPONSE" | jq -c '.data.user.contributionsCollection.contributionCalendar.weeks')"
-NUM_WEEKS="$(printf '%s' "$WEEKS" | jq 'length')"
 TOTAL="$(printf '%s' "$RESPONSE" | jq -r '.data.user.contributionsCollection.contributionCalendar.totalContributions')"
+RESPONSE_FILE="$TMP_DIR/response.json"
+DESKTOP_CANDIDATE="$TMP_DIR/contribution-grid.svg"
+MOBILE_CANDIDATE="$TMP_DIR/contribution-grid-mobile.svg"
+README_CANDIDATE="$TMP_DIR/README.md"
+printf '%s\n' "$RESPONSE" > "$RESPONSE_FILE"
+cp "$README_FILE" "$README_CANDIDATE"
 
-CELL=11
-GAP=3
-MARGIN_LEFT=30
-MARGIN_TOP=25
-WIDTH=$((MARGIN_LEFT + NUM_WEEKS * (CELL + GAP) + 10))
-HEIGHT=$((MARGIN_TOP + 7 * (CELL + GAP) + 30))
+python3 "$ROOT/.github/scripts/render-contribution-grid.py" \
+  json "$RESPONSE_FILE" "$DESKTOP_CANDIDATE" "$MOBILE_CANDIDATE"
+python3 "$ROOT/.github/scripts/update-readme-activity.py" \
+  grid "$RESPONSE_FILE" "$README_CANDIDATE"
 
-MONTHS=("Jan" "Feb" "Mar" "Apr" "May" "Jun" "Jul" "Aug" "Sep" "Oct" "Nov" "Dec")
-DAY_LABELS=("" "Mon" "" "Wed" "" "Fri" "")
-
-SVG="<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"${WIDTH}\" height=\"${HEIGHT}\">"
-SVG+="<rect width=\"100%\" height=\"100%\" fill=\"${BG}\" rx=\"6\"/>"
-
-for d in 1 3 5; do
-  Y=$((MARGIN_TOP + d * (CELL + GAP) + 9))
-  SVG+="<text x=\"2\" y=\"${Y}\" fill=\"#545c7e\" font-size=\"9\" font-family=\"-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif\">${DAY_LABELS[$d]}</text>"
-done
-
-LAST_MONTH=""
-
-for ((w = 0; w < NUM_WEEKS; w++)); do
-  DAYS="$(printf '%s' "$WEEKS" | jq -c ".[$w].contributionDays")"
-  NUM_DAYS="$(printf '%s' "$DAYS" | jq 'length')"
-
-  for ((d = 0; d < NUM_DAYS; d++)); do
-    COUNT="$(printf '%s' "$DAYS" | jq -r ".[$d].contributionCount")"
-    DATE="$(printf '%s' "$DAYS" | jq -r ".[$d].date")"
-    MONTH_NUM="${DATE:5:2}"
-    DAY_NUM="${DATE:8:2}"
-    MONTH_IDX=$((10#$MONTH_NUM - 1))
-    MONTH_NAME="${MONTHS[$MONTH_IDX]}"
-
-    if [ "$MONTH_NAME" != "$LAST_MONTH" ] && { [ "$d" -eq 0 ] || [ "$DAY_NUM" -le 7 ]; }; then
-      MX=$((MARGIN_LEFT + w * (CELL + GAP)))
-      SVG+="<text x=\"${MX}\" y=\"14\" fill=\"#545c7e\" font-size=\"9\" font-family=\"-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif\">${MONTH_NAME}</text>"
-      LAST_MONTH="$MONTH_NAME"
-    fi
-
-    if [ "$COUNT" -eq 0 ]; then
-      COLOR="$EMPTY"
-    elif [ "$COUNT" -le 3 ]; then
-      COLOR="$L1"
-    elif [ "$COUNT" -le 6 ]; then
-      COLOR="$L2"
-    elif [ "$COUNT" -le 9 ]; then
-      COLOR="$L3"
-    else
-      COLOR="$L4"
-    fi
-
-    X=$((MARGIN_LEFT + w * (CELL + GAP)))
-    Y=$((MARGIN_TOP + d * (CELL + GAP)))
-    SVG+="<rect x=\"${X}\" y=\"${Y}\" width=\"${CELL}\" height=\"${CELL}\" rx=\"2\" fill=\"${COLOR}\"/>"
-  done
-done
-
-TY=$((MARGIN_TOP + 7 * (CELL + GAP) + 15))
-SVG+="<text x=\"${MARGIN_LEFT}\" y=\"${TY}\" fill=\"#70a5fd\" font-size=\"11\" font-family=\"-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif\">${TOTAL} contributions in the last year</text>"
-SVG+="</svg>"
-
-TMP_OUTPUT="$(mktemp "$OUTPUT_DIR/.contribution-grid.svg.XXXXXX")"
-printf '%s\n' "$SVG" > "$TMP_OUTPUT"
-
-if ! python3 - "$TMP_OUTPUT" "$TOTAL" <<'PY'
-import sys
-import xml.etree.ElementTree as ET
-
-path, total = sys.argv[1:]
-try:
-    root = ET.parse(path).getroot()
-except ET.ParseError as error:
-    raise SystemExit(f"invalid generated SVG XML: {error}")
-
-if root.tag.rsplit("}", 1)[-1] != "svg":
-    raise SystemExit("invalid generated SVG: root element must be svg")
-if not root.get("width") or not root.get("height"):
-    raise SystemExit("invalid generated SVG: dimensions are required")
-text = " ".join("".join(element.itertext()) for element in root.iter())
-if f"{total} contributions in the last year" not in text:
-    raise SystemExit("invalid generated SVG: total-contributions summary is missing")
-PY
-then
-  echo "Generated contribution grid failed validation" >&2
-  exit 1
-fi
-
-chmod 0644 "$TMP_OUTPUT"
-mv -f "$TMP_OUTPUT" "$OUTPUT_FILE"
-TMP_OUTPUT=""
-echo "Generated: ${WIDTH}x${HEIGHT}, ${TOTAL} contributions"
+chmod 0644 "$DESKTOP_CANDIDATE" "$MOBILE_CANDIDATE" "$README_CANDIDATE"
+mv -f "$DESKTOP_CANDIDATE" "$OUTPUT_FILE"
+mv -f "$MOBILE_CANDIDATE" "$MOBILE_OUTPUT_FILE"
+mv -f "$README_CANDIDATE" "$README_FILE"
+echo "Generated accessible desktop and mobile grids, ${TOTAL} contributions"

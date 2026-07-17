@@ -34,9 +34,11 @@ jobs:
           PUBLISH_PR_BODY: |
             Automated update of the validated contribution grid.
 
-            The generator validates the GraphQL response, renders atomically, and permits only `contribution-grid.svg` to change.
+            The generator validates the GraphQL response, renders accessible desktop and mobile SVGs, updates the adjacent text summary, and permits only those three files to change.
 
             This PR is never merged automatically. Approve the validation run if GitHub requests it, then review the rendered asset and required check before merging.
         run: |
           bash .github/scripts/publish-generated-pr.sh \
-            contribution-grid.svg
+            contribution-grid.svg \
+            contribution-grid-mobile.svg \
+            README.md

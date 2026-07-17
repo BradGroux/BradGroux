@@ -5,7 +5,7 @@ from __future__ import annotations
 
 import os
 from pathlib import Path
-import shutil
+import re
 import sys
 import tempfile
 import xml.etree.ElementTree as ET
@@ -68,7 +68,6 @@ def validate(candidate: Path) -> None:
         raise ValidationError("missing GitHub Stats title")
     if not description_text:
         raise ValidationError("missing stats description")
-
     text = " ".join("".join(element.itertext()) for element in elements).lower()
     for marker in ERROR_MARKERS:
         if marker in text:
@@ -84,9 +83,42 @@ def validate(candidate: Path) -> None:
             "missing expected stats: " + ", ".join(sorted(missing_stats))
         )
 
+    if not title.get("id") or not description.get("id"):
+        raise ValidationError("stats title and description must have IDs")
+    expected_labels = {title.get("id"), description.get("id")}
+    actual_labels = set(root.get("aria-labelledby", "").split())
+    if not actual_labels or not actual_labels <= expected_labels or description.get("id") not in actual_labels:
+        raise ValidationError("root svg must reference its stats description")
+
+
+def normalized_payload(candidate: Path) -> bytes:
+    """Ensure the embedded SVG references both its title and description."""
+    payload = candidate.read_text(encoding="utf-8")
+    root_match = re.search(r"<svg\b[^>]*>", payload, flags=re.DOTALL)
+    if root_match is None:
+        raise ValidationError("root svg opening tag is missing")
+    root_tag = root_match.group(0)
+    tree_root = ET.fromstring(payload)
+    elements = list(tree_root.iter())
+    title = next(element for element in elements if local_name(element.tag) == "title")
+    description = next(element for element in elements if local_name(element.tag) == "desc")
+    labels = f"{title.get('id')} {description.get('id')}"
+    if re.search(r"\baria-labelledby\s*=", root_tag):
+        normalized_tag = re.sub(
+            r"\baria-labelledby\s*=\s*(['\"]).*?\1",
+            f'aria-labelledby="{labels}"',
+            root_tag,
+            count=1,
+            flags=re.DOTALL,
+        )
+    else:
+        normalized_tag = root_tag[:-1] + f' aria-labelledby="{labels}">'
+    return (payload[:root_match.start()] + normalized_tag + payload[root_match.end():]).encode("utf-8")
+
 
 def install(candidate: Path, target: Path) -> None:
     validate(candidate)
+    payload = normalized_payload(candidate)
 
     candidate = candidate.resolve()
     target = target.resolve()
@@ -103,8 +135,7 @@ def install(candidate: Path, target: Path) -> None:
             delete=False,
         ) as temporary:
             temporary_path = Path(temporary.name)
-            with candidate.open("rb") as source:
-                shutil.copyfileobj(source, temporary)
+            temporary.write(payload)
             temporary.flush()
             os.fsync(temporary.fileno())
 
