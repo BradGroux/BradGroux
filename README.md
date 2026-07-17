@@ -42,13 +42,17 @@
 
 25+ years in enterprise IT. Went from managing infrastructure, to architecting platforms at scale to building AI-powered products and catered solutions. I co-founded **Digital Meld** to help businesses stop drowning in manual processes and start using AI and automation where it actually moves the needle - operations, data pipelines, decision support, and business intelligence.
 
+## Writing & Guides
+
+- **[Use Agents Like a Team, Not a Giant Chat Window](docs/codex-managed-agent-patterns/codex-managed-agent-patterns.md)** — Split judgment, research, and execution without turning the main thread into a junk drawer.
+- **[You Don't Have to Wait for Someone Else to Build It](docs/you-dont-have-to-wait-to-build-it/you-dont-have-to-wait-to-build-it.md)** — Start with one painful loop, one signal, and one useful next action.
+- **[Browse all writing and practical guides](docs/README.md)** — Find companion guides, research notes, and reusable prompts.
+
 ## The Stack
 
-```
-TypeScript · React · Node.js · Vite · Tailwind · Python
-Microsoft Azure · Microsoft 365 · Cloudflare · n8n · Supabase
-LLMs · Agentic AI · Vision Models · Knowledge Graphs
-```
+- **Application development:** TypeScript, React, Node.js, Vite, Tailwind, and Python
+- **Platforms and operations:** Microsoft Azure, Microsoft 365, Cloudflare, n8n, and Supabase
+- **AI systems:** LLMs, coding agents, vision models, and knowledge graphs
 
 ## Community
 

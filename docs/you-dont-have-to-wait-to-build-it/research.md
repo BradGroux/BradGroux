@@ -2,6 +2,8 @@
 
 Date: 2026-07-09
 
+> Supporting material for [You Don't Have to Wait for Someone Else to Build It](you-dont-have-to-wait-to-build-it.md). [Browse all writing](../README.md).
+
 Topic: Eric Siu's Fable 5 "Business Command Center" post and the broader point that builders no longer need to wait for someone else to create the first version of a useful workflow tool.
 
 ## Research Summary
