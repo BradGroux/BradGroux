@@ -36,13 +36,13 @@ jobs:
         run: |
           python3 .github/scripts/install-stats-card.py \
             /tmp/github-stats.svg \
-            assets/github-stats.svg
+            assets/github-stats-card.svg
 
       - name: Commit and push updated card
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/github-stats.svg
+          git add assets/github-stats-card.svg
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else

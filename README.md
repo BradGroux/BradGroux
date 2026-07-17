@@ -6,7 +6,7 @@
   <img src="https://raw.githubusercontent.com/BradGroux/BradGroux/main/contribution-grid.svg?v=20260717-restored" alt="Brad's Contribution Grid" width="100%" />
 </p>
 <p align="center">
-  <img src="./assets/github-stats.svg" alt="Brad's GitHub Stats" height="165" />
+  <img src="./assets/github-stats-card.svg" alt="Brad's GitHub Stats" height="165" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=BradGroux&theme=tokyonight&hide_border=true&v=20260504" alt="Brad's GitHub Streak" height="165" />
 </p>
 
