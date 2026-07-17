@@ -2,6 +2,8 @@
 
 Date: 2026-07-09
 
+> Supporting material for [You Don't Have to Wait for Someone Else to Build It](you-dont-have-to-wait-to-build-it.md). [Browse all writing](../README.md).
+
 ## Original Request
 
 > Hey Codex, create a markdown file based upon what he's talking about in this tweet. I want to make share with people that you don't need to wait for people to build for you. Research as much as you need to. https://x.com/ericosiu/status/2074921789273129008
