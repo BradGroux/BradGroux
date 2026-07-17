@@ -1,0 +1,148 @@
+name: Refresh Profile Activity
+
+on:
+  schedule:
+    - cron: '0 6 * * *' # daily at 06:00 UTC
+  workflow_dispatch:
+
+concurrency:
+  group: generated-profile-refresh
+  cancel-in-progress: false
+
+jobs:
+  generate-stats:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        with:
+          persist-credentials: false
+
+      - name: Test stats-card safeguards
+        run: |
+          bash .github/tests/test-stats-card.sh
+          bash .github/tests/test-generated-diff.sh
+
+      - name: Generate GitHub Readme Stats card (Tokyo Night)
+        uses: stats-organization/github-readme-stats-action@f9d8133845f40d659a754f78b8484983ba766448 # v2.0.1
+        with:
+          card: stats
+          options: username=BradGroux&show_icons=true&theme=tokyonight&hide_border=true&count_private=true
+          path: /tmp/github-stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Validate generated stats card
+        run: |
+          python3 .github/scripts/install-stats-card.py \
+            /tmp/github-stats.svg \
+            /tmp/validated/github-stats.svg
+
+      - name: Upload validated stats card
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: github-stats-card
+          path: /tmp/validated/github-stats.svg
+          if-no-files-found: error
+          retention-days: 1
+
+  generate-grid:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        with:
+          persist-credentials: false
+
+      - name: Test contribution-grid safeguards
+        run: bash .github/tests/test-generate-grid.sh
+
+      - name: Generate contribution grid and text summary
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bash .github/scripts/generate-grid.sh
+
+      - name: Validate generated grid bundle
+        run: |
+          bash .github/scripts/validate-repository.sh
+          bash .github/scripts/verify-generated-diff.sh \
+            contribution-grid.svg \
+            contribution-grid-mobile.svg \
+            README.md
+
+      - name: Upload validated grid bundle
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: contribution-grid-bundle
+          path: |
+            contribution-grid.svg
+            contribution-grid-mobile.svg
+            README.md
+          if-no-files-found: error
+          retention-days: 1
+
+  publish:
+    needs: [generate-stats, generate-grid]
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        with:
+          persist-credentials: true
+
+      - name: Download validated stats card
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: github-stats-card
+          path: /tmp/generated/stats
+
+      - name: Download validated grid bundle
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: contribution-grid-bundle
+          path: /tmp/generated/grid
+
+      - name: Revalidate and install the complete profile update
+        run: |
+          cp /tmp/generated/grid/contribution-grid.svg contribution-grid.svg
+          cp /tmp/generated/grid/contribution-grid-mobile.svg contribution-grid-mobile.svg
+          cp /tmp/generated/grid/README.md README.md
+          python3 .github/scripts/install-stats-card.py \
+            /tmp/generated/stats/github-stats.svg \
+            assets/github-stats.svg
+          python3 .github/scripts/update-readme-activity.py \
+            stats assets/github-stats.svg README.md
+          bash .github/scripts/validate-repository.sh
+          bash .github/scripts/verify-generated-diff.sh \
+            assets/github-stats.svg \
+            contribution-grid.svg \
+            contribution-grid-mobile.svg \
+            README.md
+
+      - name: Open one validated profile-activity pull request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLISH_BRANCH: automation/profile-activity
+          PUBLISH_COMMIT_MESSAGE: 'chore: refresh profile activity'
+          PUBLISH_PR_TITLE: 'Refresh profile activity'
+          PUBLISH_PR_BODY: |
+            Automated daily refresh of the validated profile activity assets and their text summaries.
+
+            Stats and contribution generation run independently without write credentials. Publication runs only after both succeed, revalidates the complete bundle from a clean checkout, and permits only the two desktop assets, the mobile grid, and README to change.
+
+            If no allowed file changed, no branch or pull request is updated. This pull request is never merged automatically; inspect the rendered profile and required check before merging.
+        run: |
+          bash .github/scripts/publish-generated-pr.sh \
+            assets/github-stats.svg \
+            contribution-grid.svg \
+            contribution-grid-mobile.svg \
+            README.md
