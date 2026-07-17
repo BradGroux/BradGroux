@@ -1,0 +1,39 @@
+name: Update README Stats Card
+
+on:
+  schedule:
+    - cron: '0 */12 * * *' # every 12 hours
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths:
+      - '.github/workflows/readme-stats.yml'
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate GitHub Readme Stats card (Tokyo Night)
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=BradGroux&show_icons=true&theme=tokyonight&hide_border=true&count_private=true
+          path: assets/github-stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and push updated card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-stats.svg
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update README stats card [skip ci]"
+            git push
+          fi

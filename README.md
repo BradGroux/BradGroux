@@ -2,20 +2,12 @@
 
 **Co-founder and CEO of [Digital Meld](https://www.digitalmeld.io)**, host of the [Start Small, Think Big](https://www.youtube.com/playlist?list=PLw2ImU79nlNNgAbYOkdMpSPaqYgK2CDLR) podcast, and builder of AI systems that survive contact with real work. If you want to talk shop about agents, automation, and shipping useful things, join my [Discord](https://discord.gg/Gmfkm7QVSF).
 
-<!-- contribution-summary:start -->
-<strong>Contribution activity:</strong> 14,104 contributions in the last year. Activity levels use distinct shapes as well as color.
-<!-- contribution-summary:end -->
 <p align="center">
-  <picture>
-    <source media="(max-width: 600px)" srcset="./contribution-grid-mobile.svg" />
-    <img src="./contribution-grid.svg" alt="" width="100%" />
-  </picture>
+  <img src="https://raw.githubusercontent.com/BradGroux/BradGroux/main/contribution-grid.svg" alt="Brad's Contribution Grid" width="100%" />
 </p>
-<!-- github-stats-summary:start -->
-<strong>GitHub stats:</strong> 829 stars · 841 commits in the last year · 590 pull requests · 736 issues · contributions to 10 repositories in the last year.
-<!-- github-stats-summary:end -->
 <p align="center">
-  <img src="./assets/github-stats.svg" alt="" height="165" />
+  <img src="./assets/github-stats.svg" alt="Brad's GitHub Stats" height="165" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=BradGroux&theme=tokyonight&hide_border=true&v=20260504" alt="Brad's GitHub Streak" height="165" />
 </p>
 
 ## What I'm Working On
@@ -42,26 +34,18 @@
 
 25+ years in enterprise IT. Went from managing infrastructure, to architecting platforms at scale to building AI-powered products and catered solutions. I co-founded **Digital Meld** to help businesses stop drowning in manual processes and start using AI and automation where it actually moves the needle - operations, data pipelines, decision support, and business intelligence.
 
-## Writing & Guides
-
-- **[Use Agents Like a Team, Not a Giant Chat Window](docs/codex-managed-agent-patterns/codex-managed-agent-patterns.md)** — Split judgment, research, and execution without turning the main thread into a junk drawer.
-- **[You Don't Have to Wait for Someone Else to Build It](docs/you-dont-have-to-wait-to-build-it/you-dont-have-to-wait-to-build-it.md)** — Start with one painful loop, one signal, and one useful next action.
-- **[Browse all writing and practical guides](docs/README.md)** — Find companion guides, research notes, and reusable prompts.
-
 ## The Stack
 
-- **Application development:** TypeScript, React, Node.js, Vite, Tailwind, and Python
-- **Platforms and operations:** Microsoft Azure, Microsoft 365, Cloudflare, n8n, and Supabase
-- **AI systems:** LLMs, coding agents, vision models, and knowledge graphs
+```
+TypeScript · React · Node.js · Vite · Tailwind · Python
+Microsoft Azure · Microsoft 365 · Cloudflare · n8n · Supabase
+LLMs · Agentic AI · Vision Models · Knowledge Graphs
+```
 
 ## Community
 
 - 💜 Two nonprofits: **The Longhorn Project** @ NASA JSC and **Elijah Rising**
 - 🗣️ Speaker on AI for business, agentic workflows, and practical automation
-
-## Reuse
-
-Software and automation in this repository are available under the [MIT](LICENSE) license. Original writing, prompts, research, and contribution-grid visuals by Brad Groux are available under [CC BY 4.0](CONTENT-LICENSE.md). Third-party material remains subject to its original terms.
 
 ## Connect
 

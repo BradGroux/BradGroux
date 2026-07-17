@@ -137,20 +137,6 @@ The connector's job is only to get source data into this shape.
 
 That keeps the rest of the system simple. The dashboard does not need to know Stripe, HubSpot, Gong, or Mixpanel. It only knows `signals`, `areas`, and `quests`.
 
-## Before You Use Real Data
-
-The stack and shortcuts above are prototype-only when you are using synthetic or scrubbed data. Do not point the command center at customer, billing, employee, or other sensitive data until you have put a production boundary around the loop.
-
-- **Authenticate every event before acting on it.** Verify the provider's signature against the raw request body, enforce its timestamp or replay window, and reject failed verification before parsing the event or creating work. Use the provider's official library when one exists. Stripe's current webhook guidance covers signature verification, replay protection, duplicate delivery, retries, unordered events, and limiting an endpoint to required event types.[^stripe-webhooks]
-- **Make processing idempotent.** Record the provider's event ID and the internal result in one durable transaction. A retry, replay, or duplicate must return the existing signal and quest instead of creating another one. When two events describe the same source object, use the event type and source object ID as an additional duplicate check.
-- **Expect retries and events arriving out of order.** A later state can arrive before an earlier event. Queue work after verification, acknowledge the provider quickly, and retrieve the current source object before making a status transition when order matters. A failed delivery should be visible and retryable without duplicating business work.
-- **Separate secrets, environments, and tenants.** Keep webhook secrets and API credentials in a secret manager, never in `signals`, logs, prompts, or frontend code. Use separate test and production credentials, follow least privilege by granting each connector only the scopes it needs, rotate secrets, and map every event to a known tenant or account from trusted configuration rather than accepting a tenant ID from the payload.
-- **Minimize what you keep.** Default `payload_json` to the smallest redacted subset needed to explain and reconcile the signal. Raw payload storage is opt-in, not the default. If a real requirement justifies it, encrypt it, make it access-controlled, assign an owner, define a retention and deletion deadline, and prove the deletion job works. If those decisions have not been made, do not retain the raw payload.
-- **Put a boundary around the agent.** Allow-list the fields and approved model providers that can receive them. Do not send arbitrary payloads, secrets, payment details, or unrelated customer records to a model. Log which approved fields and provider were used, and require human approval before customer contact or any production write involving finance, compensation, security, or access.
-- **Keep an audit trail without rebuilding the sensitive payload.** Record receipt time, provider event ID, signature result, duplicate decision, normalized signal, quest transition, model-assisted draft, human approval, source-system proof, and deletion result. Logs should contain stable IDs and outcomes, not secrets or full payload copies.
-
-For the failed-payment example, the safe path is: verify the signed request, deduplicate the event, retrieve the current invoice when needed, store a minimized signal, create one quest, send only approved fields to an approved model, require a human to approve outreach or financial changes, close from source-system proof, and delete any temporary raw data on schedule.
-
 ## Turn Signals Into Quests
 
 A quest is a task with context, ownership, and proof.
@@ -387,7 +373,6 @@ If you do not have that loop, the interface can be beautiful and still useless.
 
 [^stripe-payment-failed]: Stripe Docs, "Using webhooks with subscriptions." https://docs.stripe.com/billing/subscriptions/webhooks
 [^stripe-events]: Stripe API Reference, "Types of events." https://docs.stripe.com/api/events/types
-[^stripe-webhooks]: Stripe Docs, "Receive Stripe events in your webhook endpoint." https://docs.stripe.com/webhooks
 [^hubspot-deals]: HubSpot Developers, "CRM API - Deals." https://developers.hubspot.com/docs/api-reference/legacy/crm/objects/deals/guide
 [^hubspot-search]: HubSpot Developers, "CRM search." https://developers.hubspot.com/docs/api-reference/legacy/crm/search-the-crm
 [^ga-runreport]: Google Analytics Data API, "Method: properties.runReport." https://developers.google.com/analytics/devguides/reporting/data/v1/rest/v1beta/properties/runReport
