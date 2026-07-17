@@ -11,6 +11,7 @@ bash .github/tests/test-generated-diff.sh
 bash .github/tests/test-generate-grid.sh
 bash .github/tests/test-update-readme-activity.sh
 python3 .github/tests/test-docs-navigation.py
+python3 .github/tests/test-profile-update-workflow.py
 bash .github/tests/test-publish-generated-pr.sh
 
 while IFS= read -r script; do

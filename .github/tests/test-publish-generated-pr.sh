@@ -75,4 +75,57 @@ if (
   exit 1
 fi
 
+new_profile_repo() {
+  local repo="$1"
+  mkdir -p "$repo/assets"
+  git -C "$repo" init --quiet
+  git -C "$repo" config user.name "Generated Profile Test"
+  git -C "$repo" config user.email "generated-profile@example.invalid"
+  printf 'stats-old\n' > "$repo/assets/github-stats.svg"
+  printf 'grid-old\n' > "$repo/contribution-grid.svg"
+  printf 'mobile-old\n' > "$repo/contribution-grid-mobile.svg"
+  printf 'readme-old\n' > "$repo/README.md"
+  git -C "$repo" add .
+  git -C "$repo" commit --quiet -m "profile fixture"
+}
+
+publish_profile() {
+  local repo="$1"
+  (
+    cd "$repo"
+    PUBLISH_BRANCH="automation/profile-activity" \
+      PUBLISH_GUARD="$ROOT/.github/scripts/verify-generated-diff.sh" \
+      PUBLISH_COMMIT_MESSAGE="chore: refresh profile activity" \
+      PUBLISH_PR_TITLE="Refresh profile activity" \
+      PUBLISH_PR_BODY="Validated profile update." \
+      PUBLISH_DRY_RUN=true \
+      bash "$PUBLISHER" \
+        assets/github-stats.svg \
+        contribution-grid.svg \
+        contribution-grid-mobile.svg \
+        README.md
+  )
+}
+
+no_change_repo="$TMP_DIR/profile-no-change"
+new_profile_repo "$no_change_repo"
+no_change_output="$(publish_profile "$no_change_repo")"
+[[ "$no_change_output" == *"No generated changes to publish"* ]]
+test "$(git -C "$no_change_repo" rev-list --count HEAD)" -eq 1
+
+one_change_repo="$TMP_DIR/profile-one-change"
+new_profile_repo "$one_change_repo"
+printf 'stats-new\n' > "$one_change_repo/assets/github-stats.svg"
+publish_profile "$one_change_repo"
+test "$(git -C "$one_change_repo" rev-list --count HEAD)" -eq 2
+test "$(git -C "$one_change_repo" show --pretty='' --name-only HEAD)" = "assets/github-stats.svg"
+
+both_change_repo="$TMP_DIR/profile-both-change"
+new_profile_repo "$both_change_repo"
+printf 'stats-new\n' > "$both_change_repo/assets/github-stats.svg"
+printf 'grid-new\n' > "$both_change_repo/contribution-grid.svg"
+publish_profile "$both_change_repo"
+test "$(git -C "$both_change_repo" rev-list --count HEAD)" -eq 2
+test "$(git -C "$both_change_repo" show --pretty='' --name-only HEAD | sort)" = $'assets/github-stats.svg\ncontribution-grid.svg'
+
 echo "generated PR publication tests passed"
