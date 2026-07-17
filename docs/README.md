@@ -23,4 +23,8 @@ A practical case for turning one painful business loop into a visible, testable 
 - **Research notes:** [Sources, evidence, and product context](you-dont-have-to-wait-to-build-it/research.md)
 - **Reusable prompt:** [Public-article brief and constraints](you-dont-have-to-wait-to-build-it/prompt.md)
 
+## Reuse
+
+Original writing, prompts, and research in this directory are available under [CC BY 4.0](../CONTENT-LICENSE.md). Keep existing source attribution and indicate changes when adapting the material.
+
 [Back to Brad's profile](../README.md)

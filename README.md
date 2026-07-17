@@ -59,6 +59,10 @@
 - 💜 Two nonprofits: **The Longhorn Project** @ NASA JSC and **Elijah Rising**
 - 🗣️ Speaker on AI for business, agentic workflows, and practical automation
 
+## Reuse
+
+Software and automation in this repository are available under the [MIT](LICENSE) license. Original writing, prompts, research, and contribution-grid visuals by Brad Groux are available under [CC BY 4.0](CONTENT-LICENSE.md). Third-party material remains subject to its original terms.
+
 ## Connect
 
 [![Twitter](https://img.shields.io/badge/-@BradGroux-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/bradgroux)
