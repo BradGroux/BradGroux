@@ -9,6 +9,7 @@ on:
     paths:
       - '.github/workflows/readme-stats.yml'
       - '.github/scripts/install-stats-card.py'
+      - '.github/scripts/update-readme-activity.py'
       - '.github/scripts/publish-generated-pr.sh'
       - '.github/scripts/validate-repository.sh'
       - '.github/scripts/verify-generated-diff.sh'
@@ -78,8 +79,11 @@ jobs:
           python3 .github/scripts/install-stats-card.py \
             /tmp/validated/github-stats.svg \
             assets/github-stats.svg
+          python3 .github/scripts/update-readme-activity.py \
+            stats assets/github-stats.svg README.md
           bash .github/scripts/verify-generated-diff.sh \
-            assets/github-stats.svg
+            assets/github-stats.svg \
+            README.md
 
       - name: Open validated card pull request
         env:
@@ -90,9 +94,10 @@ jobs:
           PUBLISH_PR_BODY: |
             Automated update of the validated README stats card.
 
-            The generation job is read-only. Publication revalidates the artifact from a clean checkout and permits only `assets/github-stats.svg` to change.
+            The generation job is read-only. Publication revalidates the artifact from a clean checkout, updates the adjacent text summary from the same values, and permits only the SVG and README to change.
 
             This PR is never merged automatically. Approve the validation run if GitHub requests it, then review the rendered asset and required check before merging.
         run: |
           bash .github/scripts/publish-generated-pr.sh \
-            assets/github-stats.svg
+            assets/github-stats.svg \
+            README.md

@@ -36,6 +36,12 @@ printf '<svg xmlns="http://www.w3.org/2000/svg"><text>sentinel</text></svg>\n' >
 python3 "$VALIDATOR" "$FIXTURES/valid.svg" "$valid_target"
 cmp "$FIXTURES/valid.svg" "$valid_target"
 
+missing_title_label="$TMP_DIR/missing-title-label.svg"
+sed 's/aria-labelledby="titleId descId"/aria-labelledby="descId"/' "$FIXTURES/valid.svg" > "$missing_title_label"
+normalized_target="$TMP_DIR/normalized-target.svg"
+python3 "$VALIDATOR" "$missing_title_label" "$normalized_target"
+grep -q 'aria-labelledby="titleId descId"' "$normalized_target"
+
 assert_rejected_without_replacement \
   "$FIXTURES/error.svg" \
   "captured-error-card" \
