@@ -8,6 +8,9 @@ on:
     branches: [ main ]
     paths:
       - '.github/workflows/readme-stats.yml'
+      - '.github/scripts/install-stats-card.py'
+      - '.github/tests/test-stats-card.sh'
+      - '.github/tests/stats-card/**'
 
 jobs:
   stats:
@@ -18,13 +21,22 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Test stats card validation
+        run: bash .github/tests/test-stats-card.sh
+
       - name: Generate GitHub Readme Stats card (Tokyo Night)
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
           options: username=BradGroux&show_icons=true&theme=tokyonight&hide_border=true&count_private=true
-          path: assets/github-stats.svg
+          path: /tmp/github-stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Validate and install generated card
+        run: |
+          python3 .github/scripts/install-stats-card.py \
+            /tmp/github-stats.svg \
+            assets/github-stats.svg
 
       - name: Commit and push updated card
         run: |
