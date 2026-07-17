@@ -9,40 +9,81 @@ on:
     paths:
       - '.github/workflows/readme-stats.yml'
       - '.github/scripts/install-stats-card.py'
+      - '.github/scripts/verify-generated-diff.sh'
+      - '.github/tests/test-generated-diff.sh'
       - '.github/tests/test-stats-card.sh'
       - '.github/tests/stats-card/**'
 
 jobs:
-  stats:
+  generate:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: read
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        with:
+          persist-credentials: false
 
-      - name: Test stats card validation
-        run: bash .github/tests/test-stats-card.sh
+      - name: Test generated-output safeguards
+        run: |
+          bash .github/tests/test-stats-card.sh
+          bash .github/tests/test-generated-diff.sh
 
       - name: Generate GitHub Readme Stats card (Tokyo Night)
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@f9d8133845f40d659a754f78b8484983ba766448 # v2.0.1
         with:
           card: stats
           options: username=BradGroux&show_icons=true&theme=tokyonight&hide_border=true&count_private=true
           path: /tmp/github-stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Validate and install generated card
+      - name: Validate generated card
         run: |
           python3 .github/scripts/install-stats-card.py \
             /tmp/github-stats.svg \
+            /tmp/validated/github-stats.svg
+
+      - name: Upload validated card
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: github-stats-card
+          path: /tmp/validated/github-stats.svg
+          if-no-files-found: error
+          retention-days: 1
+
+  publish:
+    needs: generate
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        with:
+          persist-credentials: true
+
+      - name: Download validated card
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: github-stats-card
+          path: /tmp/validated
+
+      - name: Revalidate and install generated card
+        run: |
+          python3 .github/scripts/install-stats-card.py \
+            /tmp/validated/github-stats.svg \
+            assets/github-stats.svg
+          bash .github/scripts/verify-generated-diff.sh \
             assets/github-stats.svg
 
       - name: Commit and push updated card
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/github-stats.svg
+          git add -- assets/github-stats.svg
+          bash .github/scripts/verify-generated-diff.sh \
+            assets/github-stats.svg
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
