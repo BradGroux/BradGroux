@@ -13,6 +13,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Test contribution grid generator
+        run: bash .github/tests/test-contribution-grid.sh
+
       - name: Generate contribution grid
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

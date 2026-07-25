@@ -1,0 +1,91 @@
+{
+  "data": {
+    "user": {
+      "contributionsCollection": {
+        "contributionCalendar": {
+          "totalContributions": 1234,
+          "weeks": [
+            {
+              "contributionDays": [
+                {
+                  "contributionCount": 0,
+                  "contributionLevel": "NONE",
+                  "date": "2026-07-05"
+                },
+                {
+                  "contributionCount": 1,
+                  "contributionLevel": "FIRST_QUARTILE",
+                  "date": "2026-07-06"
+                },
+                {
+                  "contributionCount": 9,
+                  "contributionLevel": "SECOND_QUARTILE",
+                  "date": "2026-07-07"
+                },
+                {
+                  "contributionCount": 10,
+                  "contributionLevel": "THIRD_QUARTILE",
+                  "date": "2026-07-08"
+                },
+                {
+                  "contributionCount": 99,
+                  "contributionLevel": "FOURTH_QUARTILE",
+                  "date": "2026-07-09"
+                },
+                {
+                  "contributionCount": 100,
+                  "contributionLevel": "THIRD_QUARTILE",
+                  "date": "2026-07-10"
+                },
+                {
+                  "contributionCount": 999,
+                  "contributionLevel": "FOURTH_QUARTILE",
+                  "date": "2026-07-11"
+                }
+              ]
+            },
+            {
+              "contributionDays": [
+                {
+                  "contributionCount": 1000,
+                  "contributionLevel": "FOURTH_QUARTILE",
+                  "date": "2026-07-12"
+                },
+                {
+                  "contributionCount": 42,
+                  "contributionLevel": "THIRD_QUARTILE",
+                  "date": "2026-07-13"
+                },
+                {
+                  "contributionCount": 7,
+                  "contributionLevel": "SECOND_QUARTILE",
+                  "date": "2026-07-14"
+                },
+                {
+                  "contributionCount": 3,
+                  "contributionLevel": "FIRST_QUARTILE",
+                  "date": "2026-07-15"
+                },
+                {
+                  "contributionCount": 15,
+                  "contributionLevel": "THIRD_QUARTILE",
+                  "date": "2026-07-16"
+                },
+                {
+                  "contributionCount": 250,
+                  "contributionLevel": "FOURTH_QUARTILE",
+                  "date": "2026-07-17"
+                },
+                {
+                  "contributionCount": 5,
+                  "contributionLevel": "SECOND_QUARTILE",
+                  "date": "2026-07-18"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}
