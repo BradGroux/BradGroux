@@ -5,7 +5,7 @@
 Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop, or panel, and see my upcoming appearances at [where.bradgroux.com](https://where.bradgroux.com/).
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BradGroux/BradGroux/main/contribution-grid.svg?v=20260717-restored" alt="Brad's Contribution Grid" width="100%" />
+  <img src="https://raw.githubusercontent.com/BradGroux/BradGroux/main/contribution-grid.svg?v=20260725-numbered" alt="Brad's numbered purple contribution calendar" width="100%" />
 </p>
 <p align="center">
   <img src="./assets/github-stats-card.svg" alt="Brad's GitHub Stats" height="165" />
@@ -66,6 +66,26 @@ LLMs · Agent Orchestration · MCP · RAG/Knowledge Graphs · Computer Vision
 [![LinkedIn](https://img.shields.io/badge/-Brad_Groux-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bradgroux/)
 [![Digital Meld](https://img.shields.io/badge/-digitalmeld.io-000?style=flat&logo=globe&logoColor=white)](https://www.digitalmeld.io/)
 [![Podcast](https://img.shields.io/badge/-Start_Small,_Think_Big-8B5CF6?style=flat&logo=podcast&logoColor=white)](https://www.youtube.com/playlist?list=PLw2ImU79nlNNgAbYOkdMpSPaqYgK2CDLR)
+
+<!-- media:start -->
+
+## Media
+
+Interviews, podcasts, panels, and news appearances, maintained from my [Media Appearances playlist](https://www.youtube.com/playlist?list=PLk7BUXVNUhjoRns93lxQ7pUY7SkMAIfR1).
+
+- **GitHub, July 17, 2026:** [Rubber Duck Thursday with OpenClaw's Brad Groux and @acolombiadev 🦞](https://www.youtube.com/watch?v=QM1XgyV672s)
+- **WorkModern, March 31, 2026:** [He Gave OpenClaw Access to Teams - Brad Groux on the Enterprise AI Integration Changing Everything](https://www.youtube.com/watch?v=AHG6aigfy8M)
+- **Brad Groux, March 5, 2026:** [You’re Not Ready for AI Agents Until You Fix Your Workflow and Structure | OpenClaw Use Cases](https://www.youtube.com/watch?v=ctdVTHIK-kY)
+- **Brad Groux, February 19, 2026:** [How Personal AI Agents Drive 10x Productivity (You're Doing It Wrong) - OpenClaw, Claude, and Codex](https://www.youtube.com/watch?v=UbD8QGtlPjU)
+- **Automation Testing with Joe Colantonio, January 9, 2026:** [A Practical AI Guide for Business Leaders with Brad Groux](https://www.youtube.com/watch?v=nwOBDdfH2W0)
+- **Vision Pros Live, December 1, 2025:** [AI for Smarter Business: Vision and Automation with Brad Groux | Session 1](https://www.youtube.com/watch?v=N6bYuIoW2fI)
+- **UnHacked Podcast, September 8, 2025:** [UnHacked#58: The AI Advantage: How Small Businesses Can Compete Like the Big Guys w/ Brad Groux](https://www.youtube.com/watch?v=z2W_JehjJQM)
+- **Future Factory, June 25, 2025:** [Empowering Boldness in Business | Brad Groux](https://www.youtube.com/watch?v=aU_QLPdw6AQ)
+- **Universal Podcast Network, June 19, 2025:** [Book 101 Review in its Fifth season, featuring Brad Groux as my guest.](https://www.youtube.com/watch?v=thlKY6GRoAk)
+- **Microsoft Reactor, May 14, 2025:** [AI Agents Vlog - Brad Groux - Digital Meld, Inc.](https://www.youtube.com/watch?v=mzbQy01EHY4)
+- **BBC World News, October 25, 2012:** [Brad Groux Discusses Windows 8 and Microsoft Surface On BBC World News - 2012/10/25](https://www.youtube.com/watch?v=DDUzkw-Oy7k)
+
+<!-- media:end -->
 
 ---
 
