@@ -5,11 +5,11 @@
 Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop, or panel, and see my upcoming appearances at [where.bradgroux.com](https://where.bradgroux.com/).
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BradGroux/BradGroux/main/contribution-grid.svg?v=20260725-numbered" alt="Brad's numbered purple contribution calendar" width="100%" />
+  <img src="./contribution-grid.svg" alt="Brad's numbered purple contribution calendar" width="100%" />
 </p>
 <p align="center">
-  <img align="left" src="./assets/github-stats-card.svg" alt="Brad's GitHub Stats" width="46%" />
-  <img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=BradGroux&amp;theme=tokyonight&amp;hide_border=true&amp;v=20260504" alt="Brad's GitHub Streak" width="46%" />
+  <img align="left" src="./assets/github-stats-card.svg" alt="Brad's GitHub Stats" width="44%" />
+  <img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=BradGroux&amp;theme=tokyonight&amp;hide_border=true&amp;v=20260504" alt="Brad's GitHub Streak" width="47%" />
   <br clear="both" />
 </p>
 
@@ -58,21 +58,19 @@ Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop
 
 ## Connect
 
-<p align="center">
-  <img align="left" src="./assets/transparent-spacer.svg" alt="" width="57" height="1" />
-  <a href="https://bradgroux.com/"><img align="left" src="https://img.shields.io/badge/-bradgroux.com-111827?style=flat&amp;logo=globe&amp;logoColor=white" alt="BradGroux.com" /></a>
-  <a href="https://where.bradgroux.com/"><img align="left" src="https://img.shields.io/badge/-where.bradgroux.com-2563EB?style=flat&amp;logo=googlemaps&amp;logoColor=white" alt="Speaking Schedule" /></a>
-  <a href="https://twitter.com/bradgroux"><img align="left" src="https://img.shields.io/badge/-@BradGroux-1DA1F2?style=flat&amp;logo=twitter&amp;logoColor=white" alt="Twitter" /></a>
-  <a href="https://youtube.com/bradgroux"><img align="left" src="https://img.shields.io/badge/-BradGroux-FF0000?style=flat&amp;logo=youtube&amp;logoColor=white" alt="YouTube" /></a>
-  <br clear="both" />
-</p>
-<p align="center">
-  <img align="left" src="./assets/transparent-spacer.svg" alt="" width="127" height="1" />
-  <a href="https://www.linkedin.com/in/bradgroux/"><img align="left" src="https://img.shields.io/badge/-Brad_Groux-0A66C2?style=flat&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://www.digitalmeld.io/"><img align="left" src="https://img.shields.io/badge/-digitalmeld.io-000?style=flat&amp;logo=globe&amp;logoColor=white" alt="Digital Meld" /></a>
-  <a href="https://www.youtube.com/playlist?list=PLw2ImU79nlNNgAbYOkdMpSPaqYgK2CDLR"><img align="left" src="https://img.shields.io/badge/-Start_Small,_Think_Big-8B5CF6?style=flat&amp;logo=podcast&amp;logoColor=white" alt="Podcast" /></a>
-  <br clear="both" />
-</p>
+<table align="center">
+  <tr>
+    <td align="center" colspan="4"><a href="https://bradgroux.com/"><img src="https://img.shields.io/badge/-Website-111827?style=for-the-badge&amp;logo=globe&amp;logoColor=white" alt="BradGroux.com" /></a></td>
+    <td align="center" colspan="4"><a href="https://where.bradgroux.com/"><img src="https://img.shields.io/badge/-Speaking-2563EB?style=for-the-badge&amp;logo=googlemaps&amp;logoColor=white" alt="Speaking Schedule" /></a></td>
+    <td align="center" colspan="4"><a href="https://www.digitalmeld.io/"><img src="https://img.shields.io/badge/-Digital_Meld-000?style=for-the-badge&amp;logo=globe&amp;logoColor=white" alt="Digital Meld" /></a></td>
+  </tr>
+  <tr>
+    <td align="center" colspan="3"><a href="https://www.linkedin.com/in/bradgroux/"><img src="https://img.shields.io/badge/-Brad_Groux-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" /></a></td>
+    <td align="center" colspan="3"><a href="https://twitter.com/bradgroux"><img src="https://img.shields.io/badge/-@BradGroux-1DA1F2?style=for-the-badge&amp;logo=twitter&amp;logoColor=white" alt="Twitter" /></a></td>
+    <td align="center" colspan="3"><a href="https://youtube.com/bradgroux"><img src="https://img.shields.io/badge/-BradGroux-FF0000?style=for-the-badge&amp;logo=youtube&amp;logoColor=white" alt="YouTube" /></a></td>
+    <td align="center" colspan="3"><a href="https://www.youtube.com/playlist?list=PLw2ImU79nlNNgAbYOkdMpSPaqYgK2CDLR"><img src="https://img.shields.io/badge/-Podcast-8B5CF6?style=for-the-badge&amp;logo=podcast&amp;logoColor=white" alt="Start Small, Think Big Podcast" /></a></td>
+  </tr>
+</table>
 
 <!-- media:start -->
 
