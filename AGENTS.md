@@ -10,7 +10,7 @@
 - Sort entries newest first by publication date. If dates are unavailable, preserve playlist order for those entries.
 - Keep the playlist link in the section introduction and verify every video link before publishing.
 - Keep the complete appearance list visible. Do not collapse it behind a `<details>` block.
-- Keep `Connect` as one centered row of the seven colored Shields links, using the existing transparent spacer plus left-aligned images so GitHub does not stack them. Do not replace it with a table, generic `<kbd>` boxes, a monochrome treatment, or a multi-row layout.
+- Keep `Connect` as one centered row of the seven colored Shields links, using three left-aligned images, three right-aligned images, and LinkedIn centered between them so GitHub does not stack them. Do not replace it with a table, generic `<kbd>` boxes, a monochrome treatment, a spacer image, or a multi-row layout.
 
 ## Contribution Calendar
 
