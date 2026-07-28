@@ -58,11 +58,15 @@ Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop
 
 ## Connect
 
-<div align="center">
-
-[![BradGroux.com](https://img.shields.io/badge/-Site-111827?style=flat&logo=globe&logoColor=white)](https://bradgroux.com/) [![Speaking Schedule](https://img.shields.io/badge/-Speaking-2563EB?style=flat&logo=googlemaps&logoColor=white)](https://where.bradgroux.com/) [![Digital Meld](https://img.shields.io/badge/-Digital_Meld-000?style=flat&logo=globe&logoColor=white)](https://www.digitalmeld.io/) [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bradgroux/) [![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/bradgroux) [![YouTube](https://img.shields.io/badge/-YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/bradgroux) [![Podcast](https://img.shields.io/badge/-Podcast-8B5CF6?style=flat&logo=podcast&logoColor=white)](https://www.youtube.com/playlist?list=PLw2ImU79nlNNgAbYOkdMpSPaqYgK2CDLR)
-
-</div>
+<p align="center">
+  <a href="https://bradgroux.com/"><kbd>Website</kbd></a>&nbsp;
+  <a href="https://where.bradgroux.com/"><kbd>Speaking</kbd></a>&nbsp;
+  <a href="https://www.digitalmeld.io/"><kbd>Digital Meld</kbd></a>&nbsp;
+  <a href="https://www.linkedin.com/in/bradgroux/"><kbd>LinkedIn</kbd></a>&nbsp;
+  <a href="https://twitter.com/bradgroux"><kbd>Twitter</kbd></a>&nbsp;
+  <a href="https://youtube.com/bradgroux"><kbd>YouTube</kbd></a>&nbsp;
+  <a href="https://www.youtube.com/playlist?list=PLw2ImU79nlNNgAbYOkdMpSPaqYgK2CDLR"><kbd>Podcast</kbd></a>
+</p>
 
 <!-- media:start -->
 
