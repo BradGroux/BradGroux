@@ -58,19 +58,11 @@ Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop
 
 ## Connect
 
-<table align="center">
-  <tr>
-    <td align="center" colspan="4"><a href="https://bradgroux.com/"><img src="https://img.shields.io/badge/-Website-111827?style=for-the-badge&amp;logo=globe&amp;logoColor=white" alt="BradGroux.com" /></a></td>
-    <td align="center" colspan="4"><a href="https://where.bradgroux.com/"><img src="https://img.shields.io/badge/-Speaking-2563EB?style=for-the-badge&amp;logo=googlemaps&amp;logoColor=white" alt="Speaking Schedule" /></a></td>
-    <td align="center" colspan="4"><a href="https://www.digitalmeld.io/"><img src="https://img.shields.io/badge/-Digital_Meld-000?style=for-the-badge&amp;logo=globe&amp;logoColor=white" alt="Digital Meld" /></a></td>
-  </tr>
-  <tr>
-    <td align="center" colspan="3"><a href="https://www.linkedin.com/in/bradgroux/"><img src="https://img.shields.io/badge/-Brad_Groux-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" /></a></td>
-    <td align="center" colspan="3"><a href="https://twitter.com/bradgroux"><img src="https://img.shields.io/badge/-@BradGroux-1DA1F2?style=for-the-badge&amp;logo=twitter&amp;logoColor=white" alt="Twitter" /></a></td>
-    <td align="center" colspan="3"><a href="https://youtube.com/bradgroux"><img src="https://img.shields.io/badge/-BradGroux-FF0000?style=for-the-badge&amp;logo=youtube&amp;logoColor=white" alt="YouTube" /></a></td>
-    <td align="center" colspan="3"><a href="https://www.youtube.com/playlist?list=PLw2ImU79nlNNgAbYOkdMpSPaqYgK2CDLR"><img src="https://img.shields.io/badge/-Podcast-8B5CF6?style=for-the-badge&amp;logo=podcast&amp;logoColor=white" alt="Start Small, Think Big Podcast" /></a></td>
-  </tr>
-</table>
+<div align="center">
+
+[![BradGroux.com](https://img.shields.io/badge/-Site-111827?style=flat&logo=globe&logoColor=white)](https://bradgroux.com/) [![Speaking Schedule](https://img.shields.io/badge/-Speaking-2563EB?style=flat&logo=googlemaps&logoColor=white)](https://where.bradgroux.com/) [![Digital Meld](https://img.shields.io/badge/-Digital_Meld-000?style=flat&logo=globe&logoColor=white)](https://www.digitalmeld.io/) [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bradgroux/) [![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/bradgroux) [![YouTube](https://img.shields.io/badge/-YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/bradgroux) [![Podcast](https://img.shields.io/badge/-Podcast-8B5CF6?style=flat&logo=podcast&logoColor=white)](https://www.youtube.com/playlist?list=PLw2ImU79nlNNgAbYOkdMpSPaqYgK2CDLR)
+
+</div>
 
 <!-- media:start -->
 
