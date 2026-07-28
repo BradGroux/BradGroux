@@ -16,7 +16,7 @@ svg_path = Path(sys.argv[1])
 root = ET.parse(svg_path).getroot()
 namespace = {"svg": "http://www.w3.org/2000/svg"}
 
-if root.attrib.get("width") != "700" or root.attrib.get("height") != "366":
+if root.attrib.get("width") != "700" or root.attrib.get("height") != "680":
     fail(f"unexpected fixture dimensions: {root.attrib}")
 
 day_rects = [
@@ -78,5 +78,17 @@ all_text = " ".join(text.text or "" for text in root.findall("svg:text", namespa
 for expected in ("Contributions", "1234 contributions", "Less", "More", "Mon", "Wed", "Fri"):
     if expected not in all_text:
         fail(f"missing visible label: {expected}")
+
+weekday_labels = [
+    text.text
+    for text in root.findall("svg:text", namespace)
+    if text.text in {"Mon", "Wed", "Fri"}
+]
+if weekday_labels != ["Mon", "Wed", "Fri", "Mon", "Wed", "Fri"]:
+    fail(f"unexpected split-panel weekday labels: {weekday_labels}")
+
+day_y_positions = {rect.attrib.get("y") for rect in day_rects}
+if not ({"104", "398"} <= day_y_positions):
+    fail(f"expected day cells in both calendar panels: {sorted(day_y_positions)}")
 
 print("Contribution grid SVG validation passed")

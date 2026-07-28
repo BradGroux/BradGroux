@@ -13,6 +13,7 @@ trap cleanup EXIT
 
 (
   cd "$TEST_DIR"
+  WEEKS_PER_ROW=1 \
   CONTRIBUTION_DATA_FILE="$REPO_ROOT/.github/tests/contribution-grid/fixture.json" \
     bash "$REPO_ROOT/.github/scripts/generate-grid.sh"
 )

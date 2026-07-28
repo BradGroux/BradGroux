@@ -46,13 +46,35 @@ STEP=$((CELL + GAP))
 PAD_X=24
 PAD_Y=24
 HEADER_HEIGHT=60
+MONTH_HEADER_HEIGHT=20
+PANEL_GAP=36
+FOOTER_HEIGHT=44
 WEEKDAY_LABEL_WIDTH=28
+WEEKS_PER_ROW="${WEEKS_PER_ROW:-27}"
+
+if ! [[ "$WEEKS_PER_ROW" =~ ^[1-9][0-9]*$ ]]; then
+  echo "WEEKS_PER_ROW must be a positive integer" >&2
+  exit 1
+fi
+
+PANEL_ROWS=$(((NUM_WEEKS + WEEKS_PER_ROW - 1) / WEEKS_PER_ROW))
+MAX_COLUMNS=$NUM_WEEKS
+if [[ "$MAX_COLUMNS" -gt "$WEEKS_PER_ROW" ]]; then
+  MAX_COLUMNS=$WEEKS_PER_ROW
+fi
+
 GRID_START_X=$((PAD_X + WEEKDAY_LABEL_WIDTH))
-GRID_START_Y=$((HEADER_HEIGHT + PAD_Y))
-GRID_WIDTH=$((NUM_WEEKS * STEP))
+FIRST_GRID_START_Y=$((HEADER_HEIGHT + PAD_Y + MONTH_HEADER_HEIGHT))
+GRID_WIDTH=$((MAX_COLUMNS * STEP))
 GRID_HEIGHT=$((7 * STEP))
 WIDTH=$((GRID_START_X + GRID_WIDTH + PAD_X))
-HEIGHT=$((HEADER_HEIGHT + GRID_HEIGHT + PAD_Y + 44))
+HEIGHT=$((
+  HEADER_HEIGHT
+    + PAD_Y
+    + PANEL_ROWS * (MONTH_HEADER_HEIGHT + GRID_HEIGHT)
+    + (PANEL_ROWS - 1) * PANEL_GAP
+    + FOOTER_HEIGHT
+))
 
 if [[ "$WIDTH" -lt 700 ]]; then
   WIDTH=700
@@ -76,14 +98,33 @@ SVG+="<rect x=\"${BADGE_X}\" y=\"14\" width=\"${BADGE_WIDTH}\" height=\"22\" rx=
 SVG+="<text x=\"$((BADGE_X + BADGE_WIDTH / 2))\" y=\"29\" text-anchor=\"middle\" class=\"b\" fill=\"${L4}\">${TOTAL} contributions</text>"
 SVG+="<line x1=\"${PAD_X}\" y1=\"${HEADER_HEIGHT}\" x2=\"$((WIDTH - PAD_X))\" y2=\"${HEADER_HEIGHT}\" stroke=\"${EMPTY}\" stroke-width=\".5\"/>"
 
-for d in 1 3 5; do
-  Y=$((GRID_START_Y + d * STEP + CELL / 2 + 4))
-  SVG+="<text x=\"$((GRID_START_X - 10))\" y=\"${Y}\" text-anchor=\"end\" fill=\"${LABEL}\" font-size=\"11\" font-family=\"-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif\">${DAY_LABELS[$d]}</text>"
+for ((panel = 0; panel < PANEL_ROWS; panel++)); do
+  PANEL_GRID_START_Y=$((
+    FIRST_GRID_START_Y
+      + panel * (MONTH_HEADER_HEIGHT + GRID_HEIGHT + PANEL_GAP)
+  ))
+  for d in 1 3 5; do
+    Y=$((PANEL_GRID_START_Y + d * STEP + CELL / 2 + 4))
+    SVG+="<text x=\"$((GRID_START_X - 10))\" y=\"${Y}\" text-anchor=\"end\" fill=\"${LABEL}\" font-size=\"11\" font-family=\"-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif\">${DAY_LABELS[$d]}</text>"
+  done
 done
 
 LAST_MONTH=""
+LAST_PANEL=-1
 
 for ((w = 0; w < NUM_WEEKS; w++)); do
+  PANEL=$((w / WEEKS_PER_ROW))
+  COLUMN=$((w % WEEKS_PER_ROW))
+  GRID_START_Y=$((
+    FIRST_GRID_START_Y
+      + PANEL * (MONTH_HEADER_HEIGHT + GRID_HEIGHT + PANEL_GAP)
+  ))
+
+  if [[ "$PANEL" -ne "$LAST_PANEL" ]]; then
+    LAST_MONTH=""
+    LAST_PANEL=$PANEL
+  fi
+
   DAYS=$(printf '%s' "$WEEKS" | jq -c ".[$w].contributionDays")
   NUM_DAYS=$(printf '%s' "$DAYS" | jq 'length')
   FIRST_DATE=$(printf '%s' "$DAYS" | jq -r '.[0].date')
@@ -92,7 +133,7 @@ for ((w = 0; w < NUM_WEEKS; w++)); do
   MONTH_NAME="${MONTHS[$MONTH_IDX]}"
 
   if [[ "$MONTH_NAME" != "$LAST_MONTH" ]]; then
-    MX=$((GRID_START_X + w * STEP))
+    MX=$((GRID_START_X + COLUMN * STEP))
     SVG+="<text x=\"${MX}\" y=\"$((GRID_START_Y - 10))\" fill=\"${LABEL}\" font-size=\"10\" font-family=\"-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif\">${MONTH_NAME}</text>"
     LAST_MONTH="$MONTH_NAME"
   fi
@@ -123,7 +164,7 @@ for ((w = 0; w < NUM_WEEKS; w++)); do
         ;;
     esac
 
-    X=$((GRID_START_X + w * STEP))
+    X=$((GRID_START_X + COLUMN * STEP))
     Y=$((GRID_START_Y + d * STEP))
     SVG+="<rect x=\"${X}\" y=\"${Y}\" width=\"${CELL}\" height=\"${CELL}\" rx=\"3\" fill=\"${COLOR}\"><title>${DATE}: ${COUNT} contributions</title></rect>"
 
@@ -156,7 +197,11 @@ for ((w = 0; w < NUM_WEEKS; w++)); do
 done
 
 LEGEND_X=$GRID_START_X
-LEGEND_Y=$((GRID_START_Y + GRID_HEIGHT + 28))
+LAST_GRID_START_Y=$((
+  FIRST_GRID_START_Y
+    + (PANEL_ROWS - 1) * (MONTH_HEADER_HEIGHT + GRID_HEIGHT + PANEL_GAP)
+))
+LEGEND_Y=$((LAST_GRID_START_Y + GRID_HEIGHT + 28))
 LEGEND_COLORS=("$EMPTY" "$L1" "$L2" "$L3" "$L4")
 SVG+="<text x=\"${LEGEND_X}\" y=\"${LEGEND_Y}\" fill=\"${LABEL}\" font-size=\"11\" font-family=\"-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif\">Less</text>"
 
