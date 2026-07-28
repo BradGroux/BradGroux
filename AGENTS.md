@@ -9,8 +9,7 @@
 - Use the playlist video title, canonical video URL, publishing outlet or channel, and publication date. Normalize obvious whitespace only.
 - Sort entries newest first by publication date. If dates are unavailable, preserve playlist order for those entries.
 - Keep the playlist link in the section introduction and verify every video link before publishing.
-- Keep the complete appearance list inside the existing `<details>` block so the public profile stays compact.
-- Update the appearance count in the `<summary>` whenever the playlist changes.
+- Keep the complete appearance list visible. Do not collapse it behind a `<details>` block.
 
 ## Contribution Calendar
 
