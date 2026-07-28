@@ -59,13 +59,13 @@ Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop
 ## Connect
 
 <p align="center">
-  <a href="https://bradgroux.com/"><kbd>Website</kbd></a>&nbsp;
-  <a href="https://where.bradgroux.com/"><kbd>Speaking</kbd></a>&nbsp;
-  <a href="https://www.digitalmeld.io/"><kbd>Digital Meld</kbd></a>&nbsp;
-  <a href="https://www.linkedin.com/in/bradgroux/"><kbd>LinkedIn</kbd></a>&nbsp;
-  <a href="https://twitter.com/bradgroux"><kbd>Twitter</kbd></a>&nbsp;
-  <a href="https://youtube.com/bradgroux"><kbd>YouTube</kbd></a>&nbsp;
-  <a href="https://www.youtube.com/playlist?list=PLw2ImU79nlNNgAbYOkdMpSPaqYgK2CDLR"><kbd>Podcast</kbd></a>
+  <a href="https://bradgroux.com/"><picture><img src="https://img.shields.io/badge/-Website-111827?style=for-the-badge&amp;logo=globe&amp;logoColor=white" alt="BradGroux.com" height="24" /></picture></a>
+  <a href="https://where.bradgroux.com/"><picture><img src="https://img.shields.io/badge/-Speaking-2563EB?style=for-the-badge&amp;logo=googlemaps&amp;logoColor=white" alt="Speaking Schedule" height="24" /></picture></a>
+  <a href="https://www.digitalmeld.io/"><picture><img src="https://img.shields.io/badge/-Digital_Meld-000?style=for-the-badge&amp;logo=globe&amp;logoColor=white" alt="Digital Meld" height="24" /></picture></a>
+  <a href="https://www.linkedin.com/in/bradgroux/"><picture><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" height="24" /></picture></a>
+  <a href="https://twitter.com/bradgroux"><picture><img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&amp;logo=twitter&amp;logoColor=white" alt="Twitter" height="24" /></picture></a>
+  <a href="https://youtube.com/bradgroux"><picture><img src="https://img.shields.io/badge/-YouTube-FF0000?style=for-the-badge&amp;logo=youtube&amp;logoColor=white" alt="YouTube" height="24" /></picture></a>
+  <a href="https://www.youtube.com/playlist?list=PLw2ImU79nlNNgAbYOkdMpSPaqYgK2CDLR"><picture><img src="https://img.shields.io/badge/-Podcast-8B5CF6?style=for-the-badge&amp;logo=podcast&amp;logoColor=white" alt="Start Small, Think Big Podcast" height="24" /></picture></a>
 </p>
 
 <!-- media:start -->

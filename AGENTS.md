@@ -10,7 +10,7 @@
 - Sort entries newest first by publication date. If dates are unavailable, preserve playlist order for those entries.
 - Keep the playlist link in the section introduction and verify every video link before publishing.
 - Keep the complete appearance list visible. Do not collapse it behind a `<details>` block.
-- Keep `Connect` as one centered row of compact inline link boxes. Do not replace it with a table, image badges, spacer images, or width-specific positioning.
+- Keep `Connect` as one centered row of the seven colored `for-the-badge` Shields links. Do not replace it with a table, generic `<kbd>` boxes, spacer images, or a multi-row layout.
 
 ## Contribution Calendar
 
