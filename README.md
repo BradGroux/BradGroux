@@ -7,6 +7,11 @@ Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop
 <p align="center">
   <img src="https://raw.githubusercontent.com/BradGroux/BradGroux/main/contribution-grid.svg?v=20260725-numbered" alt="Brad's numbered purple contribution calendar" width="100%" />
 </p>
+<p align="center">
+  <img align="left" src="./assets/github-stats-card.svg" alt="Brad's GitHub Stats" width="46%" />
+  <img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=BradGroux&amp;theme=tokyonight&amp;hide_border=true&amp;v=20260504" alt="Brad's GitHub Streak" width="46%" />
+  <br clear="both" />
+</p>
 
 ## What I'm Working On
 
@@ -53,16 +58,27 @@ Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop
 
 ## Connect
 
-<p align="center"><strong><a href="https://bradgroux.com/">BradGroux.com</a></strong> · <a href="https://where.bradgroux.com/">Speaking</a> · <a href="https://www.digitalmeld.io/">Digital Meld</a> · <a href="https://www.linkedin.com/in/bradgroux/">LinkedIn</a> · <a href="https://youtube.com/bradgroux">YouTube</a> · <a href="https://www.youtube.com/playlist?list=PLw2ImU79nlNNgAbYOkdMpSPaqYgK2CDLR">Podcast</a> · <a href="https://twitter.com/bradgroux">Twitter</a></p>
+<p align="center">
+  <img align="left" src="./assets/transparent-spacer.svg" alt="" width="57" height="1" />
+  <a href="https://bradgroux.com/"><img align="left" src="https://img.shields.io/badge/-bradgroux.com-111827?style=flat&amp;logo=globe&amp;logoColor=white" alt="BradGroux.com" /></a>
+  <a href="https://where.bradgroux.com/"><img align="left" src="https://img.shields.io/badge/-where.bradgroux.com-2563EB?style=flat&amp;logo=googlemaps&amp;logoColor=white" alt="Speaking Schedule" /></a>
+  <a href="https://twitter.com/bradgroux"><img align="left" src="https://img.shields.io/badge/-@BradGroux-1DA1F2?style=flat&amp;logo=twitter&amp;logoColor=white" alt="Twitter" /></a>
+  <a href="https://youtube.com/bradgroux"><img align="left" src="https://img.shields.io/badge/-BradGroux-FF0000?style=flat&amp;logo=youtube&amp;logoColor=white" alt="YouTube" /></a>
+  <br clear="both" />
+</p>
+<p align="center">
+  <img align="left" src="./assets/transparent-spacer.svg" alt="" width="127" height="1" />
+  <a href="https://www.linkedin.com/in/bradgroux/"><img align="left" src="https://img.shields.io/badge/-Brad_Groux-0A66C2?style=flat&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.digitalmeld.io/"><img align="left" src="https://img.shields.io/badge/-digitalmeld.io-000?style=flat&amp;logo=globe&amp;logoColor=white" alt="Digital Meld" /></a>
+  <a href="https://www.youtube.com/playlist?list=PLw2ImU79nlNNgAbYOkdMpSPaqYgK2CDLR"><img align="left" src="https://img.shields.io/badge/-Start_Small,_Think_Big-8B5CF6?style=flat&amp;logo=podcast&amp;logoColor=white" alt="Podcast" /></a>
+  <br clear="both" />
+</p>
 
 <!-- media:start -->
 
 ## Media
 
 Interviews, podcasts, panels, and news appearances, maintained from my [Media Appearances playlist](https://www.youtube.com/playlist?list=PLk7BUXVNUhjoRns93lxQ7pUY7SkMAIfR1).
-
-<details>
-<summary><strong>Browse all 11 appearances</strong></summary>
 
 - **GitHub, July 17, 2026:** [Rubber Duck Thursday with OpenClaw's Brad Groux and @acolombiadev 🦞](https://www.youtube.com/watch?v=QM1XgyV672s)
 - **WorkModern, March 31, 2026:** [He Gave OpenClaw Access to Teams - Brad Groux on the Enterprise AI Integration Changing Everything](https://www.youtube.com/watch?v=AHG6aigfy8M)
@@ -75,8 +91,6 @@ Interviews, podcasts, panels, and news appearances, maintained from my [Media Ap
 - **Universal Podcast Network, June 19, 2025:** [Book 101 Review in its Fifth season, featuring Brad Groux as my guest.](https://www.youtube.com/watch?v=thlKY6GRoAk)
 - **Microsoft Reactor, May 14, 2025:** [AI Agents Vlog - Brad Groux - Digital Meld, Inc.](https://www.youtube.com/watch?v=mzbQy01EHY4)
 - **BBC World News, October 25, 2012:** [Brad Groux Discusses Windows 8 and Microsoft Surface On BBC World News - 2012/10/25](https://www.youtube.com/watch?v=DDUzkw-Oy7k)
-
-</details>
 
 <!-- media:end -->
 
