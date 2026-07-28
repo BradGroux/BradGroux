@@ -58,19 +58,15 @@ Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop
 
 ## Connect
 
-<table align="center">
-  <tr>
-    <td align="center" colspan="4"><a href="https://bradgroux.com/"><img src="https://img.shields.io/badge/-Website-111827?style=for-the-badge&amp;logo=globe&amp;logoColor=white" alt="BradGroux.com" /></a></td>
-    <td align="center" colspan="4"><a href="https://where.bradgroux.com/"><img src="https://img.shields.io/badge/-Speaking-2563EB?style=for-the-badge&amp;logo=googlemaps&amp;logoColor=white" alt="Speaking Schedule" /></a></td>
-    <td align="center" colspan="4"><a href="https://www.digitalmeld.io/"><img src="https://img.shields.io/badge/-Digital_Meld-000?style=for-the-badge&amp;logo=globe&amp;logoColor=white" alt="Digital Meld" /></a></td>
-  </tr>
-  <tr>
-    <td align="center" colspan="3"><a href="https://www.linkedin.com/in/bradgroux/"><img src="https://img.shields.io/badge/-Brad_Groux-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" /></a></td>
-    <td align="center" colspan="3"><a href="https://twitter.com/bradgroux"><img src="https://img.shields.io/badge/-@BradGroux-1DA1F2?style=for-the-badge&amp;logo=twitter&amp;logoColor=white" alt="Twitter" /></a></td>
-    <td align="center" colspan="3"><a href="https://youtube.com/bradgroux"><img src="https://img.shields.io/badge/-BradGroux-FF0000?style=for-the-badge&amp;logo=youtube&amp;logoColor=white" alt="YouTube" /></a></td>
-    <td align="center" colspan="3"><a href="https://www.youtube.com/playlist?list=PLw2ImU79nlNNgAbYOkdMpSPaqYgK2CDLR"><img src="https://img.shields.io/badge/-Podcast-8B5CF6?style=for-the-badge&amp;logo=podcast&amp;logoColor=white" alt="Start Small, Think Big Podcast" /></a></td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://bradgroux.com/"><kbd>Website</kbd></a>&nbsp;
+  <a href="https://where.bradgroux.com/"><kbd>Speaking</kbd></a>&nbsp;
+  <a href="https://www.digitalmeld.io/"><kbd>Digital Meld</kbd></a>&nbsp;
+  <a href="https://www.linkedin.com/in/bradgroux/"><kbd>LinkedIn</kbd></a>&nbsp;
+  <a href="https://twitter.com/bradgroux"><kbd>Twitter</kbd></a>&nbsp;
+  <a href="https://youtube.com/bradgroux"><kbd>YouTube</kbd></a>&nbsp;
+  <a href="https://www.youtube.com/playlist?list=PLw2ImU79nlNNgAbYOkdMpSPaqYgK2CDLR"><kbd>Podcast</kbd></a>
+</p>
 
 <!-- media:start -->
 
