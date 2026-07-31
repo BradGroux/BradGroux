@@ -15,9 +15,13 @@ Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop
 
 ## What I'm Working On
 
-🐝 **[Buzz](https://github.com/block/buzz):** Self-hostable workspace where humans and AI agents build together on a relay you own. I’m a passionate user, evangelist, educator, and contributor.
+🧭 **[AI-Native Operating Framework](https://github.com/BradGroux/ai-native-operating-framework):** Open business operating framework and method for defining, documenting, applying, and improving the standards and procedures through which people and AI perform work.
+
+🛠️ **[AI Dev Days](https://github.com/BradGroux/ai-dev-days):** Public research and education companion to the AI-Native Operating Framework, with reusable events, curriculum, labs, and tool-specific tracks.
 
 🔲 **[Veritas Kanban](https://github.com/BradGroux/veritas-kanban):** Local-first task management and orchestration for people working with AI agents, with a visual board plus optional CLI, MCP, workflows, and governance. It now ships as a signed and notarized macOS app, too.
+
+🐝 **[Buzz](https://github.com/block/buzz):** Self-hostable workspace where humans and AI agents build together on a relay you own. I’m a passionate user, evangelist, educator, and contributor.
 
 🧠 **[BrainMeld](https://www.brainmeld.io):** Multi-assistant knowledge orchestration for local workspaces and Obsidian vaults, with validation, review queues, conflict prevention, citation anchors, and audit trails.
 
@@ -26,8 +30,6 @@ Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop
 🖊️ **[dm-annotate](https://github.com/BradGroux/dm-annotate):** Native, local-only macOS screen annotation tool for demos, classes, design reviews, screen shares, and recordings.
 
 🎥 **[dm-lessonmeld](https://github.com/BradGroux/dm-lessonmeld):** Native, local-first macOS recording suite for capturing, reviewing, annotating, rendering, and packaging lessons into portable project bundles.
-
-🛠️ **[OpenClaw Dev Days](https://github.com/BradGroux/openclaw-dev-days):** Reusable, event-tested workshop kit with facilitator runbooks, setup guides, labs, and fast paths to a first useful OpenClaw workflow.
 
 🚀 **[sstb.ai](https://www.sstb.ai):** Public home for the Start Small, Think Big operator community, events, AI Operator Lab, training, and advisory.
 
@@ -76,6 +78,7 @@ Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop
 
 Interviews, podcasts, panels, and news appearances, maintained from my [Media Appearances playlist](https://www.youtube.com/playlist?list=PLk7BUXVNUhjoRns93lxQ7pUY7SkMAIfR1).
 
+- **Brad Groux, July 28, 2026:** [Personal AI in 2026: OpenClaw + Codex Developer Workflow - Own your operating model; rent your tools](https://www.youtube.com/watch?v=qxXfbS99wOk)
 - **GitHub, July 17, 2026:** [Rubber Duck Thursday with OpenClaw's Brad Groux and @acolombiadev 🦞](https://www.youtube.com/watch?v=QM1XgyV672s)
 - **WorkModern, March 31, 2026:** [He Gave OpenClaw Access to Teams - Brad Groux on the Enterprise AI Integration Changing Everything](https://www.youtube.com/watch?v=AHG6aigfy8M)
 - **Brad Groux, March 5, 2026:** [You’re Not Ready for AI Agents Until You Fix Your Workflow and Structure | OpenClaw Use Cases](https://www.youtube.com/watch?v=ctdVTHIK-kY)
@@ -84,6 +87,7 @@ Interviews, podcasts, panels, and news appearances, maintained from my [Media Ap
 - **Vision Pros Live, December 1, 2025:** [AI for Smarter Business: Vision and Automation with Brad Groux | Session 1](https://www.youtube.com/watch?v=N6bYuIoW2fI)
 - **UnHacked Podcast, September 8, 2025:** [UnHacked#58: The AI Advantage: How Small Businesses Can Compete Like the Big Guys w/ Brad Groux](https://www.youtube.com/watch?v=z2W_JehjJQM)
 - **Future Factory, June 25, 2025:** [Empowering Boldness in Business | Brad Groux](https://www.youtube.com/watch?v=aU_QLPdw6AQ)
+- **Digital Meld, June 21, 2025:** [AI Is the New Space Race: Energy, Ethics, and Global Impact - from WAC Houston | Episode #0015](https://www.youtube.com/watch?v=1b1H9BY8kKI)
 - **Universal Podcast Network, June 19, 2025:** [Book 101 Review in its Fifth season, featuring Brad Groux as my guest.](https://www.youtube.com/watch?v=thlKY6GRoAk)
 - **Microsoft Reactor, May 14, 2025:** [AI Agents Vlog - Brad Groux - Digital Meld, Inc.](https://www.youtube.com/watch?v=mzbQy01EHY4)
 - **BBC World News, October 25, 2012:** [Brad Groux Discusses Windows 8 and Microsoft Surface On BBC World News - 2012/10/25](https://www.youtube.com/watch?v=DDUzkw-Oy7k)
