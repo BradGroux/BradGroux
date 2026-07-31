@@ -78,6 +78,7 @@ Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop
 
 Interviews, podcasts, panels, and news appearances, maintained from my [Media Appearances playlist](https://www.youtube.com/playlist?list=PLk7BUXVNUhjoRns93lxQ7pUY7SkMAIfR1).
 
+- **Burn The Map Podcast, July 30, 2026:** [Burn The Map: Turning AI Into Operational Leverage w/ Brad Groux](https://www.youtube.com/watch?v=Njcld2zyPiE)
 - **Brad Groux, July 28, 2026:** [Personal AI in 2026: OpenClaw + Codex Developer Workflow - Own your operating model; rent your tools](https://www.youtube.com/watch?v=qxXfbS99wOk)
 - **GitHub, July 17, 2026:** [Rubber Duck Thursday with OpenClaw's Brad Groux and @acolombiadev 🦞](https://www.youtube.com/watch?v=QM1XgyV672s)
 - **WorkModern, March 31, 2026:** [He Gave OpenClaw Access to Teams - Brad Groux on the Enterprise AI Integration Changing Everything](https://www.youtube.com/watch?v=AHG6aigfy8M)
