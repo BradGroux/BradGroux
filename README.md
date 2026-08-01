@@ -17,6 +17,8 @@ Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop
 
 🧭 **[AI-Native Operating Framework](https://github.com/BradGroux/ai-native-operating-framework):** Open business operating framework and method for defining, documenting, applying, and improving the standards and procedures through which people and AI perform work.
 
+🌱 **[Influence Operating Framework](https://github.com/BradGroux/influence-operating-framework):** Open business operating framework for building meaningful influence through useful contribution, trusted relationships, accountable judgment, and continuous learning.
+
 🛠️ **[AI Dev Days](https://github.com/BradGroux/ai-dev-days):** Public research and education companion to the AI-Native Operating Framework, with reusable events, curriculum, labs, and tool-specific tracks.
 
 🔲 **[Veritas Kanban](https://github.com/BradGroux/veritas-kanban):** Local-first task management and orchestration for people working with AI agents, with a visual board plus optional CLI, MCP, workflows, and governance. It now ships as a signed and notarized macOS app, too.
