@@ -15,27 +15,19 @@ Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop
 
 ## What I'm Working On
 
-🧭 **[AI-Native Operating Framework](https://github.com/BradGroux/ai-native-operating-framework):** Open business operating framework and method for defining, documenting, applying, and improving the standards and procedures through which people and AI perform work.
-
-🌱 **[Influence Operating Framework](https://github.com/BradGroux/influence-operating-framework):** Open business operating framework for building meaningful influence through useful contribution, trusted relationships, accountable judgment, and continuous learning.
-
-🛠️ **[AI Dev Days](https://github.com/BradGroux/ai-dev-days):** Public research and education companion to the AI-Native Operating Framework, with reusable events, curriculum, labs, and tool-specific tracks.
-
-🔲 **[Veritas Kanban](https://github.com/BradGroux/veritas-kanban):** Local-first task management and orchestration for people working with AI agents, with a visual board plus optional CLI, MCP, workflows, and governance. It now ships as a signed and notarized macOS app, too.
-
-🐝 **[Buzz](https://github.com/block/buzz):** Self-hostable workspace where humans and AI agents build together on a relay you own. I’m a passionate user, evangelist, educator, and contributor.
-
-🧠 **[BrainMeld](https://www.brainmeld.io):** Multi-assistant knowledge orchestration for local workspaces and Obsidian vaults, with validation, review queues, conflict prevention, citation anchors, and audit trails.
-
-🤝 **[DealMeld](https://www.dealmeld.io):** Multi-tenant CRM and digital sales room with deal pipelines, secure collaboration, agent-ready APIs, and AI-assisted company intelligence.
-
-🖊️ **[dm-annotate](https://github.com/BradGroux/dm-annotate):** Native, local-only macOS screen annotation tool for demos, classes, design reviews, screen shares, and recordings.
-
-🎥 **[dm-lessonmeld](https://github.com/BradGroux/dm-lessonmeld):** Native, local-first macOS recording suite for capturing, reviewing, annotating, rendering, and packaging lessons into portable project bundles.
-
-🚀 **[sstb.ai](https://www.sstb.ai):** Public home for the Start Small, Think Big operator community, events, AI Operator Lab, training, and advisory.
-
-🎙️ **[Start Small, Think Big](https://www.youtube.com/playlist?list=PLw2ImU79nlNNgAbYOkdMpSPaqYgK2CDLR):** Conversations with builders and operators about the messy middle of turning ideas into useful systems.
+- 🧩 **[Open Framework Commons](https://github.com/BradGroux/open-framework-commons):** Shared principles and boundaries for the Open Framework Ecosystem.
+  - 🧭 **[AI-Native Operating Framework](https://github.com/BradGroux/ai-native-operating-framework):** Open business operating framework and method for defining, documenting, applying, and improving the standards and procedures through which people and AI perform work.
+  - 🌱 **[Influence Operating Framework](https://github.com/BradGroux/influence-operating-framework):** Open business operating framework for building meaningful influence through useful contribution, trusted relationships, accountable judgment, and continuous learning.
+  - 🔗 **[Relationship Operating Framework](https://github.com/BradGroux/relationship-operating-framework):** Open documentation framework for stewarding real relationships across time while preserving continuity, commitments, consent, boundaries, and human responsibility.
+- 🛠️ **[AI Dev Days](https://github.com/BradGroux/ai-dev-days):** Public research and education companion to the AI-Native Operating Framework, with reusable events, curriculum, labs, and tool-specific tracks.
+- 🔲 **[Veritas Kanban](https://github.com/BradGroux/veritas-kanban):** Local-first task management and orchestration for people working with AI agents, with a visual board plus optional CLI, MCP, workflows, and governance. It now ships as a signed and notarized macOS app, too.
+- 🧠 **[BrainMeld](https://www.brainmeld.io):** Multi-assistant knowledge orchestration for local workspaces and Obsidian vaults, with validation, review queues, conflict prevention, citation anchors, and audit trails.
+- 🐝 **[Buzz](https://github.com/block/buzz):** Self-hostable workspace where humans and AI agents build together on a relay you own. I’m a passionate user, evangelist, educator, and contributor.
+- 🤝 **[DealMeld](https://www.dealmeld.io):** Multi-tenant CRM and digital sales room with deal pipelines, secure collaboration, agent-ready APIs, and AI-assisted company intelligence.
+- 🖊️ **[dm-annotate](https://github.com/BradGroux/dm-annotate):** Native, local-only macOS screen annotation tool for demos, classes, design reviews, screen shares, and recordings.
+- 🎥 **[dm-lessonmeld](https://github.com/BradGroux/dm-lessonmeld):** Native, local-first macOS recording suite for capturing, reviewing, annotating, rendering, and packaging lessons into portable project bundles.
+- 🚀 **[sstb.ai](https://www.sstb.ai):** Public home for the Start Small, Think Big operator community, events, AI Operator Lab, training, and advisory.
+- 🎙️ **[Start Small, Think Big](https://www.youtube.com/playlist?list=PLw2ImU79nlNNgAbYOkdMpSPaqYgK2CDLR):** Conversations with builders and operators about the messy middle of turning ideas into useful systems.
 
 ## Background
 
