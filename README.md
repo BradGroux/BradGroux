@@ -17,6 +17,7 @@ Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop
 
 - 🧩 **[Open Framework Commons](https://github.com/BradGroux/open-framework-commons):** Shared principles and boundaries for the Open Framework Ecosystem.
   - 🧭 **[AI-Native Operating Framework](https://github.com/BradGroux/ai-native-operating-framework):** Open business operating framework and method for defining, documenting, applying, and improving the standards and procedures through which people and AI perform work.
+  - 🎯 **[Focus Operating Framework](https://github.com/BradGroux/focus-operating-framework):** Open individual operating framework for directing attention and preserving continuity.
   - 🌱 **[Influence Operating Framework](https://github.com/BradGroux/influence-operating-framework):** Open business operating framework for building meaningful influence through useful contribution, trusted relationships, accountable judgment, and continuous learning.
   - 🔗 **[Relationship Operating Framework](https://github.com/BradGroux/relationship-operating-framework):** Open documentation framework for stewarding real relationships across time while preserving continuity, commitments, consent, boundaries, and human responsibility.
 - 🛠️ **[AI Dev Days](https://github.com/BradGroux/ai-dev-days):** Public research and education companion to the AI-Native Operating Framework, with reusable events, curriculum, labs, and tool-specific tracks.
