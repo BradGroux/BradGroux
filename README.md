@@ -48,7 +48,7 @@ Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop
 
 ## Community
 
-- 💜 Volunteer with **The Longhorn Project** at NASA JSC and **Elijah Rising**
+- 💜 Volunteer with [The Longhorn Project at NASA JSC](https://www.thelonghornproject.com/) and [Elijah Rising](https://elijahrising.org/)
 - 🎓 Student mentor to hundreds of students from:
   - Texas A&M University
   - University of Houston
@@ -56,9 +56,9 @@ Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop
   - University of St. Thomas
   - Blinn College
   - and more
-- 🌎 Supporting member of the **World Affairs Council of Greater Houston**
+- 🌎 Supporting member of the [World Affairs Council of Greater Houston](https://wachouston.org/)
 - 🎤 Member of the [National Speakers Association Houston](https://nsahouston.org/)
-- 🗣️ Speaker on AI for business, agent workflows, and practical automation
+  - 🗣️ Speaker on AI for business, agent workflows, and practical automation
 
 ## Connect
 
