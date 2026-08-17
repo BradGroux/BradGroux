@@ -57,6 +57,7 @@ Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop
   - Blinn College
   - and more
 - 🌎 Supporting member of the **World Affairs Council of Greater Houston**
+- 🎤 Member of the [National Speakers Association Houston](https://nsahouston.org/)
 - 🗣️ Speaker on AI for business, agent workflows, and practical automation
 
 ## Connect
