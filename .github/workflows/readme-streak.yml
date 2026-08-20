@@ -11,6 +11,12 @@ on:
       - '.github/scripts/install-streak-card.py'
       - '.github/tests/test-streak-card.sh'
       - '.github/tests/streak-card/**'
+  pull_request:
+    paths:
+      - '.github/workflows/readme-streak.yml'
+      - '.github/scripts/install-streak-card.py'
+      - '.github/tests/test-streak-card.sh'
+      - '.github/tests/streak-card/**'
 
 jobs:
   streak:
@@ -38,6 +44,7 @@ jobs:
             assets/github-streak-card.svg
 
       - name: Commit and push updated card
+        if: github.event_name != 'pull_request'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
