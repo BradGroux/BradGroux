@@ -1,0 +1,57 @@
+name: Update README Streak Card
+
+on:
+  schedule:
+    - cron: '30 */12 * * *' # every 12 hours, offset from the stats card job
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths:
+      - '.github/workflows/readme-streak.yml'
+      - '.github/scripts/install-streak-card.py'
+      - '.github/tests/test-streak-card.sh'
+      - '.github/tests/streak-card/**'
+  pull_request:
+    paths:
+      - '.github/workflows/readme-streak.yml'
+      - '.github/scripts/install-streak-card.py'
+      - '.github/tests/test-streak-card.sh'
+      - '.github/tests/streak-card/**'
+
+jobs:
+  streak:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Test streak card validation
+        run: bash .github/tests/test-streak-card.sh
+
+      - name: Generate GitHub streak card (Tokyo Night)
+        uses: DenverCoder1/github-readme-streak-stats@f69662e10794e8757b12d3303a113a30b01c9bc9
+        with:
+          options: user=BradGroux&theme=tokyonight&hide_border=true
+          path: /tmp/github-streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Validate and install generated streak card
+        run: |
+          python3 .github/scripts/install-streak-card.py \
+            /tmp/github-streak.svg \
+            assets/github-streak-card.svg
+
+      - name: Commit and push updated card
+        if: github.event_name != 'pull_request'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-streak-card.svg
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update README streak card [skip ci]"
+            git push
+          fi

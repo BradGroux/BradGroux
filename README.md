@@ -9,7 +9,7 @@ Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop
 </p>
 <p align="center">
   <img align="left" src="./assets/github-stats-card.svg" alt="Brad's GitHub Stats" width="44%" />
-  <img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=BradGroux&amp;theme=tokyonight&amp;hide_border=true&amp;v=20260504" alt="Brad's GitHub Streak" width="47%" />
+  <img align="right" src="./assets/github-streak-card.svg" alt="Brad's GitHub Streak" width="47%" />
   <br clear="both" />
 </p>
 
