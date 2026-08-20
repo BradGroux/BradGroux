@@ -9,8 +9,11 @@ on:
     paths:
       - '.github/workflows/readme-stats.yml'
       - '.github/scripts/install-stats-card.py'
+      - '.github/scripts/install-streak-card.py'
       - '.github/tests/test-stats-card.sh'
+      - '.github/tests/test-streak-card.sh'
       - '.github/tests/stats-card/**'
+      - '.github/tests/streak-card/**'
 
 jobs:
   stats:
@@ -21,8 +24,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Test stats card validation
-        run: bash .github/tests/test-stats-card.sh
+      - name: Test README card validation
+        run: |
+          bash .github/tests/test-stats-card.sh
+          bash .github/tests/test-streak-card.sh
 
       - name: Generate GitHub Readme Stats card (Tokyo Night)
         uses: readme-tools/github-readme-stats-action@v1
@@ -38,11 +43,24 @@ jobs:
             /tmp/github-stats.svg \
             assets/github-stats-card.svg
 
+      - name: Generate GitHub streak card (Tokyo Night)
+        uses: DenverCoder1/github-readme-streak-stats@f69662e10794e8757b12d3303a113a30b01c9bc9
+        with:
+          options: user=BradGroux&theme=tokyonight&hide_border=true
+          path: /tmp/github-streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Validate and install generated streak card
+        run: |
+          python3 .github/scripts/install-streak-card.py \
+            /tmp/github-streak.svg \
+            assets/github-streak-card.svg
+
       - name: Commit and push updated card
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/github-stats-card.svg
+          git add assets/github-stats-card.svg assets/github-streak-card.svg
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
