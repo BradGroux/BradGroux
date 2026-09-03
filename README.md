@@ -80,17 +80,18 @@ Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop
 
 Interviews, podcasts, panels, and news appearances, maintained from my [Media Appearances playlist](https://www.youtube.com/playlist?list=PLk7BUXVNUhjoRns93lxQ7pUY7SkMAIfR1).
 
+- **GitHub, August 27, 2026:** [OpenClaw Went Viral. Meet the Maintainers Building and Securing It.](https://www.youtube.com/watch?v=5VSwaUXtPIE)
 - **Burn The Map Podcast, July 30, 2026:** [Burn The Map: Turning AI Into Operational Leverage w/ Brad Groux](https://www.youtube.com/watch?v=Njcld2zyPiE)
 - **Brad Groux, July 28, 2026:** [Personal AI in 2026: OpenClaw + Codex Developer Workflow - Own your operating model; rent your tools](https://www.youtube.com/watch?v=qxXfbS99wOk)
 - **GitHub, July 17, 2026:** [Rubber Duck Thursday with OpenClaw's Brad Groux and @acolombiadev 🦞](https://www.youtube.com/watch?v=QM1XgyV672s)
 - **WorkModern, March 31, 2026:** [He Gave OpenClaw Access to Teams - Brad Groux on the Enterprise AI Integration Changing Everything](https://www.youtube.com/watch?v=AHG6aigfy8M)
 - **Brad Groux, March 5, 2026:** [You’re Not Ready for AI Agents Until You Fix Your Workflow and Structure | OpenClaw Use Cases](https://www.youtube.com/watch?v=ctdVTHIK-kY)
 - **Brad Groux, February 19, 2026:** [How Personal AI Agents Drive 10x Productivity (You're Doing It Wrong) - OpenClaw, Claude, and Codex](https://www.youtube.com/watch?v=UbD8QGtlPjU)
-- **Automation Testing with Joe Colantonio, January 9, 2026:** [A Practical AI Guide for Business Leaders with Brad Groux](https://www.youtube.com/watch?v=nwOBDdfH2W0)
+- **Automation Testing with Joe Colantonio, January 8, 2026:** [A Practical AI Guide for Business Leaders with Brad Groux](https://www.youtube.com/watch?v=nwOBDdfH2W0)
 - **Vision Pros Live, December 1, 2025:** [AI for Smarter Business: Vision and Automation with Brad Groux | Session 1](https://www.youtube.com/watch?v=N6bYuIoW2fI)
 - **UnHacked Podcast, September 8, 2025:** [UnHacked#58: The AI Advantage: How Small Businesses Can Compete Like the Big Guys w/ Brad Groux](https://www.youtube.com/watch?v=z2W_JehjJQM)
-- **Future Factory, June 25, 2025:** [Empowering Boldness in Business | Brad Groux](https://www.youtube.com/watch?v=aU_QLPdw6AQ)
-- **Digital Meld, June 21, 2025:** [AI Is the New Space Race: Energy, Ethics, and Global Impact - from WAC Houston | Episode #0015](https://www.youtube.com/watch?v=1b1H9BY8kKI)
+- **Future Factory, June 24, 2025:** [Empowering Boldness in Business | Brad Groux](https://www.youtube.com/watch?v=aU_QLPdw6AQ)
+- **Digital Meld, June 20, 2025:** [AI Is the New Space Race: Energy, Ethics, and Global Impact - from WAC Houston | Episode #0015](https://www.youtube.com/watch?v=1b1H9BY8kKI)
 - **Universal Podcast Network, June 19, 2025:** [Book 101 Review in its Fifth season, featuring Brad Groux as my guest.](https://www.youtube.com/watch?v=thlKY6GRoAk)
 - **Microsoft Reactor, May 14, 2025:** [AI Agents Vlog - Brad Groux - Digital Meld, Inc.](https://www.youtube.com/watch?v=mzbQy01EHY4)
 - **BBC World News, October 25, 2012:** [Brad Groux Discusses Windows 8 and Microsoft Surface On BBC World News - 2012/10/25](https://www.youtube.com/watch?v=DDUzkw-Oy7k)
