@@ -26,7 +26,6 @@ Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop
 - 🐝 **[Buzz](https://github.com/block/buzz):** Self-hostable workspace where humans and AI agents build together on a relay you own. I’m a passionate user, evangelist, educator, and contributor.
 - 🤝 **[DealMeld](https://www.dealmeld.io):** Multi-tenant CRM and digital sales room with deal pipelines, secure collaboration, agent-ready APIs, and AI-assisted company intelligence.
 - 🖊️ **[dm-annotate](https://github.com/BradGroux/dm-annotate):** Native, local-only macOS screen annotation tool for demos, classes, design reviews, screen shares, and recordings.
-- 🎥 **[dm-lessonmeld](https://github.com/BradGroux/dm-lessonmeld):** Native, local-first macOS recording suite for capturing, reviewing, annotating, rendering, and packaging lessons into portable project bundles.
 - 📝 **[Minimal Transcript](https://github.com/BradGroux/youtube-transcript-minimal):** Minimalist Chrome extension that downloads YouTube transcripts in one click — no popups, no ads, no accounts — clean and timestamped, ready to drop into Codex, Muse, OpenClaw, or Buzz.
 - 🚀 **[sstb.ai](https://www.sstb.ai):** Public home for the Start Small, Think Big operator community, events, AI Operator Lab, training, and advisory.
 - 🎙️ **[Start Small, Think Big](https://www.youtube.com/playlist?list=PLw2ImU79nlNNgAbYOkdMpSPaqYgK2CDLR):** Conversations with builders and operators about the messy middle of turning ideas into useful systems.
