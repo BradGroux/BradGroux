@@ -15,21 +15,21 @@ Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop
 
 ## What I'm Working On
 
-- 🧩 **[Open Framework Commons](https://github.com/BradGroux/open-framework-commons):** Shared principles and boundaries for the Open Framework Ecosystem.
-  - 🧭 **[AI-Native Operating Framework](https://github.com/BradGroux/ai-native-operating-framework):** Open business operating framework and method for defining, documenting, applying, and improving the standards and procedures through which people and AI perform work.
-  - 🎯 **[Focus Operating Framework](https://github.com/BradGroux/focus-operating-framework):** Open individual operating framework for directing attention and preserving continuity.
-  - 🌱 **[Influence Operating Framework](https://github.com/BradGroux/influence-operating-framework):** Open business operating framework for building meaningful influence through useful contribution, trusted relationships, accountable judgment, and continuous learning.
-  - 🔗 **[Relationship Operating Framework](https://github.com/BradGroux/relationship-operating-framework):** Open documentation framework for stewarding real relationships across time while preserving continuity, commitments, consent, boundaries, and human responsibility.
 - 🛠️ **[AI Dev Days](https://github.com/BradGroux/ai-dev-days):** Public research and education companion to the AI-Native Operating Framework, with reusable events, curriculum, labs, and tool-specific tracks.
-- 🔲 **[Veritas Kanban](https://github.com/BradGroux/veritas-kanban):** Local-first task management and orchestration for people working with AI agents, with a visual board plus optional CLI, MCP, workflows, and governance. It now ships as a signed and notarized macOS app, too.
 - 🧠 **[BrainMeld](https://www.brainmeld.io):** Multi-assistant knowledge orchestration for local workspaces and Obsidian vaults, with validation, review queues, conflict prevention, citation anchors, and audit trails.
 - 🐝 **[Buzz](https://github.com/block/buzz):** Self-hostable workspace where humans and AI agents build together on a relay you own. I’m a passionate user, evangelist, educator, and contributor.
 - 🤝 **[DealMeld](https://www.dealmeld.io):** Multi-tenant CRM and digital sales room with deal pipelines, secure collaboration, agent-ready APIs, and AI-assisted company intelligence.
 - 🖊️ **[dm-annotate](https://github.com/BradGroux/dm-annotate):** Native, local-only macOS screen annotation tool for demos, classes, design reviews, screen shares, and recordings.
 - 📝 **[Minimal Transcript](https://github.com/BradGroux/youtube-transcript-minimal):** Minimalist Chrome extension that downloads YouTube transcripts in one click — no popups, no ads, no accounts — clean and timestamped, ready to drop into Codex, Muse, OpenClaw, or Buzz.
+- 🧩 **[Open Framework Commons](https://github.com/BradGroux/open-framework-commons):** Shared principles and boundaries for the Open Framework Ecosystem.
+  - 🧭 **[AI-Native Operating Framework](https://github.com/BradGroux/ai-native-operating-framework):** Open business operating framework and method for defining, documenting, applying, and improving the standards and procedures through which people and AI perform work.
+  - 🎯 **[Focus Operating Framework](https://github.com/BradGroux/focus-operating-framework):** Open individual operating framework for directing attention and preserving continuity.
+  - 🌱 **[Influence Operating Framework](https://github.com/BradGroux/influence-operating-framework):** Open business operating framework for building meaningful influence through useful contribution, trusted relationships, accountable judgment, and continuous learning.
+  - 🔗 **[Relationship Operating Framework](https://github.com/BradGroux/relationship-operating-framework):** Open documentation framework for stewarding real relationships across time while preserving continuity, commitments, consent, boundaries, and human responsibility.
 - 🚀 **[sstb.ai](https://www.sstb.ai):** Public home for the Start Small, Think Big operator community, events, AI Operator Lab, training, and advisory.
 - 🎙️ **[Start Small, Think Big](https://www.youtube.com/playlist?list=PLw2ImU79nlNNgAbYOkdMpSPaqYgK2CDLR):** Conversations with builders and operators about the messy middle of turning ideas into useful systems.
 
+- 🔲 **[Veritas Kanban](https://github.com/BradGroux/veritas-kanban):** Local-first task management and orchestration for people working with AI agents, with a visual board plus optional CLI, MCP, workflows, and governance. It now ships as a signed and notarized macOS app, too.
 ## Background
 
 25+ years in enterprise IT. I went from managing infrastructure to architecting platforms at scale and building AI-powered products and tailored systems. I co-founded **Digital Meld** to help businesses stop drowning in manual processes and use AI and automation where it actually moves the needle: operations, data pipelines, decision support, and business intelligence.
