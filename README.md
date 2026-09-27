@@ -17,7 +17,7 @@ Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop
 
 - 🛠️ **[AI Dev Days](https://github.com/BradGroux/ai-dev-days):** Public research and education companion to the AI-Native Operating Framework, with reusable events, curriculum, labs, and tool-specific tracks.
 - 🧠 **[BrainMeld](https://www.brainmeld.io):** Multi-assistant knowledge orchestration for local workspaces and Obsidian vaults, with validation, review queues, conflict prevention, citation anchors, and audit trails.
-- 🐝 **[Buzz]**(https://github.com/block/buzz)**:** Self-hostable workspace where humans and AI agents build together on a relay you own. I’m a passionate user, evangelist, educator, and contributor.
+- 🐝 **[Buzz](https://github.com/block/buzz):** Self-hostable workspace where humans and AI agents build together on a relay you own. I’m a passionate user, evangelist, educator, and contributor.
 - 🤝 **[DealMeld](https://www.dealmeld.io):** Multi-tenant CRM and digital sales room with deal pipelines, secure collaboration, agent-ready APIs, and AI-assisted company intelligence.
 - 🖊️ **[dm-annotate](https://github.com/BradGroux/dm-annotate):** Native, local-only macOS screen annotation tool for demos, classes, design reviews, screen shares, and recordings.
 - 📝 **[Minimal Transcript](https://github.com/BradGroux/youtube-transcript-minimal):** Minimalist Chrome extension that downloads YouTube transcripts in one click — no popups, no ads, no accounts — clean and timestamped, ready to drop into Codex, Muse, OpenClaw, or Buzz.
