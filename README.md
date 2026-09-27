@@ -35,7 +35,7 @@ Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop
 
 ## Past Work
 
-🦞 **[OpenClaw](https://github.com/openclaw/openclaw):** Open-source personal AI assistant and agent runtime. I served as the Microsoft maintainer and liaison, building Teams and Microsoft ecosystem integrations for real-world deployments.
+- 🦞 [**OpenClaw**](https://github.com/openclaw/openclaw)**:** Open-source personal AI assistant and agent runtime. I served as the Microsoft maintainer and liaison, building Teams and Microsoft ecosystem integrations for real-world deployments.
 
 - 🐝 [**Buzz**](https://github.com/block/buzz)**:** Self-hostable workspace where humans and AI agents build together on a relay you own. I’m a passionate user, evangelist, educator, and contributor.
 
