@@ -78,7 +78,7 @@ Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop
 
 ## Media
 
-Interviews, podcasts, panels, and news appearances, maintained from my [Media Appearances playlist](https://www.youtube.com/playlist?list=PLk7BUXVNUhjoRns93lxQ7pUY7SkMAIfR1).
+Interviews, podcasts, panels, and news appearances.
 
 - **GitHub, August 27, 2026:** [OpenClaw Went Viral. Meet the Maintainers Building and Securing It.](https://www.youtube.com/watch?v=5VSwaUXtPIE)
 - **Burn The Map Podcast, July 30, 2026:** [Burn The Map: Turning AI Into Operational Leverage w/ Brad Groux](https://www.youtube.com/watch?v=Njcld2zyPiE)
