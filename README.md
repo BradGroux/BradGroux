@@ -30,6 +30,7 @@ Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop
 - 🎙️ **[Start Small, Think Big](https://www.youtube.com/playlist?list=PLw2ImU79nlNNgAbYOkdMpSPaqYgK2CDLR):** Conversations with builders and operators about the messy middle of turning ideas into useful systems.
 
 - 🔲 **[Veritas Kanban](https://github.com/BradGroux/veritas-kanban):** Local-first task management and orchestration for people working with AI agents, with a visual board plus optional CLI, MCP, workflows, and governance. It now ships as a signed and notarized macOS app, too.
+- 🎮 **[WoW Forever Legacy Mission Control](https://github.com/BradGroux/wow-forever-mission-control):** Roster planner and progress tracker for World of Warcraft: Forever, with leveling plans, profession targets, Legacy point tracking, a static web dashboard, and an optional in-game addon.
 ## Background
 
 25+ years in enterprise IT. I went from managing infrastructure to architecting platforms at scale and building AI-powered products and tailored systems. I co-founded **Digital Meld** to help businesses stop drowning in manual processes and use AI and automation where it actually moves the needle: operations, data pipelines, decision support, and business intelligence.
