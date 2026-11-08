@@ -7,11 +7,10 @@ Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop
 <p align="center">
   <img src="./contribution-grid.svg" alt="Brad's numbered purple contribution calendar" width="100%" />
 </p>
-
-**Contribution streak:** 286 consecutive days through November 6, 2026. [View daily contributions on GitHub](https://github.com/users/BradGroux/contributions).
-
 <p align="center">
-  <img src="./assets/github-stats-card.svg" alt="Brad's GitHub Stats" width="44%" />
+  <img align="left" src="./assets/github-stats-card.svg" alt="Brad's GitHub Stats" width="44%" />
+  <img align="right" src="./assets/github-streak-card.svg" alt="Brad's GitHub Streak" width="47%" />
+  <br clear="both" />
 </p>
 
 ## What I'm Working On
