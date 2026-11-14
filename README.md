@@ -49,6 +49,7 @@ Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop
 
 ## Community
 
+- 🛠️ [Codex Ambassador in Houston](https://learn.chatgpt.com/community/codex-ambassadors/directory), helping local builders learn and build with Codex.
 - 💜 Volunteer with [The Longhorn Project at NASA JSC](https://www.thelonghornproject.com/) and [Elijah Rising](https://elijahrising.org/)
 - 🎓 Student mentor to hundreds of students from:
   - Texas A&M University
