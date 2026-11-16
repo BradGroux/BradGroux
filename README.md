@@ -49,6 +49,8 @@ Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop
 
 ## Community
 
+- 🏭 Member of the [Agentic AI Foundation Applied Industries Committee](https://digitalmeld.io/blog/bringing-blue-collar-industries-to-aaif/), bringing field work and industrial operations into the conversation about AI.
+- 🛠️ [Codex Ambassador in Houston](https://learn.chatgpt.com/community/codex-ambassadors/directory), helping local builders learn and build with Codex.
 - 💜 Volunteer with [The Longhorn Project at NASA JSC](https://www.thelonghornproject.com/) and [Elijah Rising](https://elijahrising.org/)
 - 🎓 Student mentor to hundreds of students from:
   - Texas A&M University
@@ -79,8 +81,10 @@ Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop
 
 ## Media
 
-Interviews, podcasts, panels, and news appearances.
+Interviews, podcasts, panels, and news appearances. Browse my [Media Appearances playlist](https://www.youtube.com/playlist?list=PLk7BUXVNUhjoRns93lxQ7pUY7SkMAIfR1).
 
+- **Open Data Science and AI Conference, October 29, 2026:** [The Personal AI Shift: OpenClaw, Muse, Instinct, and What Comes Next with Brad Groux](https://www.youtube.com/watch?v=XGNw7fy_IKA)
+- **Brad Groux | AI for Business, October 19, 2026:** [Build in Public and Trust Yourself to Figure It Out | Brad Groux at H.U.G.](https://www.youtube.com/watch?v=Ejev-ZrSOV4)
 - **GitHub, August 27, 2026:** [OpenClaw Went Viral. Meet the Maintainers Building and Securing It.](https://www.youtube.com/watch?v=5VSwaUXtPIE)
 - **Burn The Map Podcast, July 30, 2026:** [Burn The Map: Turning AI Into Operational Leverage w/ Brad Groux](https://www.youtube.com/watch?v=Njcld2zyPiE)
 - **Brad Groux, July 28, 2026:** [Personal AI in 2026: OpenClaw + Codex Developer Workflow - Own your operating model; rent your tools](https://www.youtube.com/watch?v=qxXfbS99wOk)
