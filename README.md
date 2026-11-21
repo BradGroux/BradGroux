@@ -2,7 +2,7 @@
 
 **Co-founder and CEO of** [**Digital Meld**](https://www.digitalmeld.io/), host of the [Start Small, Think Big](https://www.youtube.com/playlist?list=PLw2ImU79nlNNgAbYOkdMpSPaqYgK2CDLR) podcast, and builder of AI systems that survive contact with real work. If you want to talk shop about agents, automation, PRDs, SOPs, and shipping useful things, [Join my Community](http://go.sstb.ai/home).
 
-Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop, or panel, and see my upcoming appearances at [where.bradgroux.com](https://where.bradgroux.com/).
+Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop, or panel, and see upcoming and past appearances on [Talks & Events](https://bradgroux.com/presentations).
 
 <p align="center">
   <img src="./contribution-grid.svg" alt="Brad's numbered purple contribution calendar" width="100%" />
@@ -68,7 +68,7 @@ Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop
 <p align="center">
   <img align="left" src="./assets/transparent-spacer.svg" alt="" width="3" height="1" />
   <a href="https://bradgroux.com/"><img align="left" src="https://img.shields.io/badge/-Website-111827?style=flat&amp;logo=globe&amp;logoColor=white" alt="BradGroux.com" height="22" /></a>
-  <a href="https://where.bradgroux.com/"><img align="left" src="https://img.shields.io/badge/-Speaking-2563EB?style=flat&amp;logo=googlemaps&amp;logoColor=white" alt="Speaking Schedule" height="22" /></a>
+  <a href="https://bradgroux.com/presentations"><img align="left" src="https://img.shields.io/badge/-Speaking-2563EB?style=flat&amp;logo=googlemaps&amp;logoColor=white" alt="Speaking Schedule" height="22" /></a>
   <a href="https://www.digitalmeld.io/"><img align="left" src="https://img.shields.io/badge/-Digital_Meld-000?style=flat&amp;logo=globe&amp;logoColor=white" alt="Digital Meld" height="22" /></a>
   <a href="https://www.linkedin.com/in/bradgroux/"><img align="left" src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" height="22" /></a>
   <a href="https://twitter.com/bradgroux"><img align="left" src="https://img.shields.io/badge/-Twitter-1DA1F2?style=flat&amp;logo=twitter&amp;logoColor=white" alt="Twitter" height="22" /></a>
