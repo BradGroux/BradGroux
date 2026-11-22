@@ -51,7 +51,7 @@ Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop
 
 - 🏭 Member of the [Agentic AI Foundation Applied Industries Committee](https://digitalmeld.io/blog/bringing-blue-collar-industries-to-aaif/), bringing field work and industrial operations into the conversation about AI.
 - 🛠️ [Codex Ambassador in Houston](https://learn.chatgpt.com/community/codex-ambassadors/directory), helping local builders learn and build with Codex.
-- 💜 Volunteer with [The Longhorn Project at NASA JSC](https://www.thelonghornproject.com/) and [Elijah Rising](https://elijahrising.org/)
+- 💜 Volunteer with [The Longhorn Project at NASA JSC](https://www.nasa.gov/image-article/longhorns-live-jsc/) and [Elijah Rising](https://elijahrising.org/)
 - 🎓 Student mentor to hundreds of students from:
   - Texas A&M University
   - University of Houston
