@@ -13,6 +13,8 @@ Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop
   <br clear="both" />
 </p>
 
+**Research:** [Six days of GPT-6 Astra: usage and corrective steering](https://www.digitalmeld.io/work/six-days-gpt-6-astra-usage-corrective-steering/). I reviewed where I had to repeat instructions or correct a handoff while using a coding agent. It's a record of my own use, not a model benchmark.
+
 ## What I'm Working On
 
 - 🛠️ **[AI Dev Days](https://github.com/BradGroux/ai-dev-days):** Public research and education companion to the AI-Native Operating Framework, with reusable events, curriculum, labs, and tool-specific tracks.
