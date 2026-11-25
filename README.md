@@ -17,7 +17,7 @@ Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop
 
 ## What I'm Working On
 
-- 🛠️ **[AI Dev Days](https://github.com/BradGroux/ai-dev-days):** Public research and education companion to the AI-Native Operating Framework, with reusable events, curriculum, labs, and tool-specific tracks.
+- 🛠️ **[AI Dev Days](https://github.com/BradGroux/ai-dev-days):** Public research and education companion to the AI-Native Operating Framework, with reusable events, curriculum, labs, and tool-specific tracks. Start with the [worked vendor-onboarding exercise](https://github.com/BradGroux/ai-dev-days/blob/master/event-specific/2026-08-19-houston-business-analysts-codex/ai-ready-workflow-worked-example.md) to see what to document before automating a workflow.
 - 🧠 **[BrainMeld](https://www.brainmeld.io):** Multi-assistant knowledge orchestration for local workspaces and Obsidian vaults, with validation, review queues, conflict prevention, citation anchors, and audit trails.
 - 🐝 **[Buzz](https://github.com/block/buzz-app):** Self-hostable workspace where humans and AI agents build together on a relay you own. I’m a passionate user, evangelist, educator, and contributor.
 - 🤝 **[DealMeld](https://www.dealmeld.io):** Multi-tenant CRM and digital sales room with deal pipelines, secure collaboration, agent-ready APIs, and AI-assisted company intelligence.
