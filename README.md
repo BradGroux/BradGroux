@@ -30,7 +30,7 @@ Visit [bradgroux.com](https://bradgroux.com/) to book me for a keynote, workshop
   - 🔗 **[Relationship Operating Framework](https://github.com/BradGroux/relationship-operating-framework):** Open documentation framework for stewarding real relationships across time while preserving continuity, commitments, consent, boundaries, and human responsibility.
 - 🚀 **[sstb.ai](https://sstb.ai/):** Public home for the Start Small, Think Big operator community, events, AI Operator Lab, training, and advisory.
 - 🎙️ **[Start Small, Think Big](https://www.youtube.com/playlist?list=PLw2ImU79nlNNgAbYOkdMpSPaqYgK2CDLR):** Conversations with builders and operators about the messy middle of turning ideas into useful systems.
-- 🔲 **[Veritas Kanban](https://github.com/BradGroux/veritas-kanban):** Local-first task management and orchestration for people working with AI agents, with a visual board plus optional CLI, MCP, workflows, and governance. It now ships as a signed and notarized macOS app, too.
+- 🔲 **[Veritas Kanban](https://github.com/BradGroux/veritas-kanban):** Local-first task management and orchestration for people working with AI agents, with a visual board plus optional CLI, MCP, workflows, and governance. It now ships as a signed and notarized macOS app, too. The [setup guide](https://github.com/BradGroux/veritas-kanban/blob/main/docs/SETUP-PATHS.md) shows how to start with just the board and add integrations later.
 - 🎮 **[WoW Forever Legacy Mission Control](https://github.com/BradGroux/wow-forever-mission-control):** Roster planner and progress tracker for World of Warcraft: Forever, with leveling plans, profession targets, Legacy point tracking, a static web dashboard, and an optional in-game addon.
 
 ## Background
